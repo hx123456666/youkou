@@ -1,0 +1,120 @@
+{% extends 'base/front_base.html' %}
+
+{% block title %}
+  搜索页
+{% endblock %}
+
+{% block link %}
+  <link rel="stylesheet" href="/static/css/news/search.css">
+{% endblock %}
+
+{% block main %}
+  <!-- main start -->
+  <main id="main">
+    <div class="w1200 clearfix">
+      <!-- main-contain start  -->
+      <div class="main-contain ">
+        <!-- search-box start -->
+        <div class="search-box">
+          <form action="" style="display: inline-flex;">
+            <input type="search" placeholder="请输入要搜索的内容" name="q" class="search-control">
+            <input type="submit" value="搜索" class="search-btn">
+          </form>
+          <!-- 可以用浮动 垂直对齐 以及 flex  -->
+        </div>
+        <!-- search-box end -->
+        <!-- content start -->
+        <div class="content">
+          <!-- search-list start -->
+          <div class="search-result-list hide">
+            <h2 class="search-result-title">
+              搜索结果 <span style="font-weight: 300;"></span>
+            </h2>
+            <ul class="news-list">
+              <li class="news-item clearfix">
+                <a href="javascript:void(0);" class="news-thumbnail" target="_blank">
+                  <img src="https://res.shiguangkey.com//file/201808/13/20180813153406778113487.png">
+                </a>
+                <div class="news-content">
+                  <h4 class="news-title"><a href="javascript:void(0);">新闻标题</a></h4>
+                  <p class="news-details">新闻详情新闻详情新闻详情新闻详情新闻详情</p>
+                  <div class="news-other">
+                    <span class="news-type">分类名</span>
+                    <span class="news-time">发布时间</span>
+                    <span class="news-author">作者</span>
+                  </div>
+                </div>
+              </li>
+              <li class="news-item clearfix">
+                <a href="javascript:void(0);" class="news-thumbnail" target="_blank">
+                  <img src="https://res.shiguangkey.com//file/201808/13/20180813153406778113487.png">
+                </a>
+                <div class="news-content">
+                  <h4 class="news-title"><a href="javascript:void(0);">新闻标题</a></h4>
+                  <p class="news-details">新闻详情新闻详情新闻详情新闻详情新闻详情</p>
+                  <div class="news-other">
+                    <span class="news-type">分类名</span>
+                    <span class="news-time">发布时间</span>
+                    <span class="news-author">作者</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- search-list end -->
+          <!-- news-contain start -->
+          <div class="news-contain">
+            <div class="hot-recommend-list">
+              <h2 class="hot-recommend-title">热门推荐</h2>
+              <ul class="news-list">
+                <li class="news-item clearfix">
+                  <a href="javascript:void(0);" class="news-thumbnail">
+                    <img src="https://res.shiguangkey.com//file/201808/13/20180813153406778113487.png">
+                  </a>
+                  <div class="news-content">
+                    <h4 class="news-title">
+                      <a href="javascript:void(0);">新闻标题</a>
+                    </h4>
+                    <p class="news-details">
+                    </p>
+                    <div class="news-other">
+                      <span class="news-type">分类名</span>
+                      <span class="news-time">发布时间</span>
+                      <span class="news-author">作者</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="news-item clearfix">
+                  <a href="javascript:void(0);" class="news-thumbnail">
+                    <img src="https://res.shiguangkey.com//file/201808/13/20180813153406778113487.png">
+                  </a>
+                  <div class="news-content">
+                    <h4 class="news-title">
+                      <a href="javascript:void(0);">新闻标题</a>
+                    </h4>
+                    <p class="news-details">
+                    </p>
+                    <div class="news-other">
+                      <span class="news-type">分类名</span>
+                      <span class="news-time">发布时间</span>
+                      <span class="news-author">作者</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- news-contain end -->
+        </div>
+        <!-- content end -->
+      </div>
+      <!-- main-contain  end -->
+      {% include 'base/side_base.html' %}
+    </div>
+  </main>
+  <!-- main end -->
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}
