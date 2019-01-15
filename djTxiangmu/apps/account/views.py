@@ -1,12 +1,8 @@
 from django.contrib.auth import authenticate, login
-
 from django.shortcuts import render,redirect,reverse
-
 from django.http import HttpResponse, JsonResponse
-
 from django.views import View
 from .forms import LoginForm
-
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 from django.utils.decorators import method_decorator
 
@@ -22,32 +18,21 @@ class LoginView(View):
         return render(request, 'account/login.html')
 
     def post(self, request, *args, **kwargs):
-
-
         # telephone = request.POST.get("telephone")
-
         form = LoginForm(request.POST)
-
         # 如果验证通过 继续
-
         if form.is_valid():
-
             telephone = form.cleaned_data.get("telephone", None)
-
             password = form.cleaned_data.get('password', None)
-
             # print(telephone, password)
 
             # alt + enter
-
             user = authenticate(username=telephone,
                                password=password)
-
             if user:
                 login(request, user)
                 # return redirect(reverse(''))
                 return JsonResponse({"code": 2, "msg": "登录成功", "data": "xxx"})
-
             return JsonResponse({"code": 1, "msg": "用户名或密码错误"})
         # <ul class="errorlist"><li>telephone<ul class="errorlist"><li>长度有误</li></ul></li></ul>
 
@@ -66,13 +51,10 @@ class LoginView(View):
 
 
 class RegisterView(View):
-
     def get(self, request, *args, **kwargs):
         return render(request, 'account/register.html')
-
     def post(self, request, *args, **kwargs):
         pass
-
 
 # def login(request):
 

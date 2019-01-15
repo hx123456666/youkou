@@ -21,7 +21,7 @@ $(function(){
         if(res["code"]===2){
           message.showSuccess("登录成功");
           setTimeout(()=>{
-              window.location.href = '/';
+              window.location.href = '192.168.254.136:8000/news/';
           }, 2500)
         }else{
           message.showError(res["msg"]);
