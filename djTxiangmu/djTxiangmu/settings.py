@@ -37,10 +37,10 @@ AUTH_USER_MODEL = 'account.User'#
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.contenttypes', # 记录Django数据库模型信息
+    'django.contrib.sessions',  #
+    'django.contrib.messages', # 消息提示功能
+    'django.contrib.staticfiles',  #  静态文件路径
     'apps.account',
     'apps.course',
     'apps.doc',
@@ -49,8 +49,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.security.SecurityMiddleware', # 安全中间键 做有关安全认证（对请求头，请求的认证）
+    'django.contrib.sessions.middleware.SessionMiddleware',  # 会话中间键 从会话中取session
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -62,7 +62,7 @@ ROOT_URLCONF = 'djTxiangmu.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.template.backends.django.DjangoTemplates', #  指向后端模板引擎
         'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
         'APP_DIRS': True,
@@ -86,13 +86,32 @@ WSGI_APPLICATION = 'djTxiangmu.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default':{
+    #     'ENGINE':'django.db.backends.sqlite3',
+    #     'NAME':os.path.join(BASE_DIR,'db.sqlite3')
+    # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',    #数据库引擎
-        'NAME': 'djTx',                           #数据库名称
+        'NAME': 'djTx',                          #数据库名称
         'USER': 'root',                          #链接数据库的用户名
         'PASSWORD': 'qwe123',                    #链接数据库的密码
-        'HOST': '127.0.0.1',                     #MySQL服务器的域名和ip地址
-        'PORT': 3306,                            #端口
+        'HOST': '127.0.0.1',                     #MySQL服务器的域名和ip地址,如保持默认，则为127.0.0.1
+        'PORT': 3306,                            #端口，如保持默认，则为3306
+    }
+    # 'default':{
+    #     'ENGINE':'django.db.backends.mysql',
+    #     'OPTIONS':{
+    #         'read_default_file':'utils/dbs/my.cnf'
+    #     }
+    # }
+}
+
+# 在settings.py文件中指定redis配置
+CACHES = {
+    'BACKEND':'django-redis.cache.RedisCache',
+    'LOCATION':'redis://127.0.0.1:6379/0',
+    'OPTIONS':{
+        'CLIENT_CLASS':'django_redis.client.DefaultClient',
     }
 }
 
