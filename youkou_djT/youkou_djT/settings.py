@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps.news',
+    'apps.users',
+    'apps.doc',
+    'apps.course',
+    'apps.one',
 ]
 
 MIDDLEWARE = [
@@ -64,6 +69,8 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+# 将函数内置到模板中 https://docs.djangoproject.com/en/2.1/topics/templates/
+            'builtins':['django.templatetags.static'],
         },
     },
 ]
@@ -180,3 +187,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/media')

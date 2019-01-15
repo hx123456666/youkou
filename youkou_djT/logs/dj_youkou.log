@@ -5,3 +5,34 @@ INFO 2019-01-15 22:28:04,074 basehttp 124 "GET /static/admin/fonts/Roboto-Light-
 INFO 2019-01-15 22:28:04,080 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
 WARNING 2019-01-15 22:28:04,124 log 228 Not Found: /favicon.ico
 WARNING 2019-01-15 22:28:04,126 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1982
+INFO 2019-01-15 22:54:08,071 basehttp 124 "GET / HTTP/1.1" 200 16934
+WARNING 2019-01-15 22:54:08,130 log 228 Not Found: /css/base/common.css
+WARNING 2019-01-15 22:54:08,137 basehttp 124 "GET /css/base/common.css HTTP/1.1" 404 2586
+WARNING 2019-01-15 22:54:08,134 log 228 Not Found: /css/base/reset.css
+WARNING 2019-01-15 22:54:08,141 log 228 Not Found: /css/news/index.css
+WARNING 2019-01-15 22:54:08,141 basehttp 124 "GET /css/base/reset.css HTTP/1.1" 404 2583
+WARNING 2019-01-15 22:54:08,145 basehttp 124 "GET /css/news/index.css HTTP/1.1" 404 2583
+WARNING 2019-01-15 22:54:08,152 log 228 Not Found: /css/base/side.css
+WARNING 2019-01-15 22:54:08,164 basehttp 124 "GET /css/base/side.css HTTP/1.1" 404 2580
+WARNING 2019-01-15 22:54:08,159 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-15 22:54:08,162 log 228 Not Found: /images/linux.jpg
+WARNING 2019-01-15 22:54:08,178 basehttp 124 "GET /images/linux.jpg HTTP/1.1" 404 2577
+WARNING 2019-01-15 22:54:08,179 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-15 22:54:08,173 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-15 22:54:08,184 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-15 22:54:08,183 log 228 Not Found: /js/index.js
+WARNING 2019-01-15 22:54:08,191 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-15 22:54:08,189 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-15 22:54:08,193 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-15 22:54:08,204 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-15 22:54:08,211 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-15 22:54:08,209 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-15 22:54:08,214 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2604
+WARNING 2019-01-15 22:54:08,220 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-15 22:54:08,227 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-15 22:54:08,226 log 228 Not Found: /images/english.jpg
+WARNING 2019-01-15 22:54:08,229 basehttp 124 "GET /images/english.jpg HTTP/1.1" 404 2583
+WARNING 2019-01-15 22:54:08,976 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-15 22:54:08,977 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-15 22:54:08,990 log 228 Not Found: /js/index.js
+WARNING 2019-01-15 22:54:08,992 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
