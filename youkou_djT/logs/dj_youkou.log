@@ -588,3 +588,281 @@ INFO 2019-01-16 16:10:49,252 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
 INFO 2019-01-16 16:10:50,315 basehttp 124 "GET / HTTP/1.1" 200 16415
 INFO 2019-01-16 16:10:51,030 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
 INFO 2019-01-16 16:10:51,616 basehttp 124 "GET /doc/ HTTP/1.1" 200 7626
+ERROR 2019-01-16 16:18:15,502 log 228 Internal Server Error: /one/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 190, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'youkou_djT.django_session' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/functional.py", line 213, in inner
+    self._setup()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/functional.py", line 347, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 182, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 195, in _get_session
+    self._session_cache = self.load()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    expire_date__gt=timezone.now()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 393, in get
+    num = len(clone)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'youkou_djT.django_session' doesn't exist")
+ERROR 2019-01-16 16:18:15,536 basehttp 124 "GET /one/ HTTP/1.1" 500 262326
+INFO 2019-01-16 16:19:04,832 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:19:08,645 basehttp 124 "GET / HTTP/1.1" 200 16415
+ERROR 2019-01-16 16:19:19,736 log 228 Internal Server Error: /one/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 190, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'youkou_djT.django_session' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/functional.py", line 213, in inner
+    self._setup()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/utils/functional.py", line 347, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 182, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 195, in _get_session
+    self._session_cache = self.load()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    expire_date__gt=timezone.now()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 393, in get
+    num = len(clone)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'youkou_djT.django_session' doesn't exist")
+ERROR 2019-01-16 16:19:19,761 basehttp 124 "GET /one/ HTTP/1.1" 500 262330
+INFO 2019-01-16 16:20:08,028 basehttp 124 "GET /one/ HTTP/1.1" 200 9
+INFO 2019-01-16 16:21:25,524 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:33:03,590 basehttp 124 "GET /doc/ HTTP/1.1" 200 7626
+INFO 2019-01-16 16:33:04,214 basehttp 124 "GET /search/ HTTP/1.1" 200 12416
+WARNING 2019-01-16 16:33:04,240 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 16:33:04,246 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2651
+WARNING 2019-01-16 16:33:04,245 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 16:33:04,249 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2627
+WARNING 2019-01-16 16:33:07,982 log 228 Not Found: /doc/docDownload.html
+WARNING 2019-01-16 16:33:07,983 basehttp 124 "GET /doc/docDownload.html HTTP/1.1" 404 2715
+WARNING 2019-01-16 16:33:18,400 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 16:33:18,401 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2709
+INFO 2019-01-16 16:33:23,897 basehttp 124 "GET /search/ HTTP/1.1" 200 12416
+WARNING 2019-01-16 16:33:23,914 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 16:33:23,922 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2651
+WARNING 2019-01-16 16:33:23,929 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 16:33:23,934 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2627
+WARNING 2019-01-16 16:33:26,570 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 16:33:26,570 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2709
+INFO 2019-01-16 16:33:36,538 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:33:39,195 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:33:39,832 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:33:45,310 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:33:46,477 basehttp 124 "GET /doc/ HTTP/1.1" 200 7626
+INFO 2019-01-16 16:33:47,920 basehttp 124 "GET /search/ HTTP/1.1" 200 12416
+WARNING 2019-01-16 16:33:47,944 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 16:33:47,953 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2651
+WARNING 2019-01-16 16:33:47,967 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 16:33:47,975 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2627
+INFO 2019-01-16 16:34:50,258 basehttp 124 "GET /search/ HTTP/1.1" 200 12411
+WARNING 2019-01-16 16:34:50,282 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 16:34:50,284 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2651
+WARNING 2019-01-16 16:34:50,508 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 16:34:50,511 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2627
+WARNING 2019-01-16 16:34:57,410 log 228 Not Found: /search/search.html
+WARNING 2019-01-16 16:34:57,411 basehttp 124 "GET /search/search.html HTTP/1.1" 404 2648
+INFO 2019-01-16 16:35:02,564 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:35:03,984 basehttp 124 "GET /search/ HTTP/1.1" 200 12411
+WARNING 2019-01-16 16:35:04,008 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 16:35:04,015 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2651
+WARNING 2019-01-16 16:35:04,014 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 16:35:04,022 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2627
+INFO 2019-01-16 16:39:53,671 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:39:54,684 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
+INFO 2019-01-16 16:39:54,697 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 223
+INFO 2019-01-16 16:39:56,594 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
+INFO 2019-01-16 16:39:58,122 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
+INFO 2019-01-16 16:39:59,113 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
