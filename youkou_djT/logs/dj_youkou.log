@@ -36,3 +36,555 @@ WARNING 2019-01-15 22:54:08,976 log 228 Not Found: /js/base/common.js
 WARNING 2019-01-15 22:54:08,977 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
 WARNING 2019-01-15 22:54:08,990 log 228 Not Found: /js/index.js
 WARNING 2019-01-15 22:54:08,992 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+INFO 2019-01-16 08:22:27,588 basehttp 124 "GET / HTTP/1.1" 200 16934
+WARNING 2019-01-16 08:22:27,691 log 228 Not Found: /css/base/reset.css
+WARNING 2019-01-16 08:22:27,707 basehttp 124 "GET /css/base/reset.css HTTP/1.1" 404 2583
+WARNING 2019-01-16 08:22:27,694 log 228 Not Found: /css/base/common.css
+WARNING 2019-01-16 08:22:27,711 basehttp 124 "GET /css/base/common.css HTTP/1.1" 404 2586
+WARNING 2019-01-16 08:22:27,698 log 228 Not Found: /css/news/index.css
+WARNING 2019-01-16 08:22:27,713 basehttp 124 "GET /css/news/index.css HTTP/1.1" 404 2583
+WARNING 2019-01-16 08:22:27,702 log 228 Not Found: /css/base/side.css
+WARNING 2019-01-16 08:22:27,706 log 228 Not Found: /images/linux.jpg
+WARNING 2019-01-16 08:22:27,727 basehttp 124 "GET /images/linux.jpg HTTP/1.1" 404 2577
+WARNING 2019-01-16 08:22:27,728 basehttp 124 "GET /css/base/side.css HTTP/1.1" 404 2580
+WARNING 2019-01-16 08:22:27,722 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 08:22:27,735 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 08:22:27,738 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-16 08:22:27,749 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-16 08:22:27,746 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 08:22:27,758 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 08:22:27,756 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-16 08:22:27,765 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 08:22:27,763 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 08:22:27,771 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 08:22:27,781 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-16 08:22:27,791 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2604
+WARNING 2019-01-16 08:22:27,790 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 08:22:27,805 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 08:22:27,810 log 228 Not Found: /images/english.jpg
+WARNING 2019-01-16 08:22:27,812 basehttp 124 "GET /images/english.jpg HTTP/1.1" 404 2583
+WARNING 2019-01-16 08:22:28,226 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-16 08:22:28,227 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-16 08:22:28,236 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 08:22:28,238 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 08:22:28,254 log 228 Not Found: /favicon.ico
+WARNING 2019-01-16 08:22:28,255 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2562
+INFO 2019-01-16 09:10:13,271 basehttp 124 "GET / HTTP/1.1" 200 17019
+INFO 2019-01-16 09:10:13,330 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-01-16 09:10:13,332 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-01-16 09:10:13,333 basehttp 124 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-01-16 09:10:13,348 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+WARNING 2019-01-16 09:10:13,361 log 228 Not Found: /images/linux.jpg
+WARNING 2019-01-16 09:10:13,371 basehttp 124 "GET /images/linux.jpg HTTP/1.1" 404 2577
+WARNING 2019-01-16 09:10:13,369 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 09:10:13,377 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 09:10:13,375 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-16 09:10:13,386 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:10:13,395 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 09:10:13,408 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 09:10:13,404 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-16 09:10:13,410 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-16 09:10:13,418 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 09:10:13,423 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:10:13,428 log 228 Not Found: /images/english.jpg
+WARNING 2019-01-16 09:10:13,439 basehttp 124 "GET /images/english.jpg HTTP/1.1" 404 2583
+WARNING 2019-01-16 09:10:13,443 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 09:10:13,444 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 09:10:13,447 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-16 09:10:13,451 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2604
+INFO 2019-01-16 09:10:13,457 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 200 24527
+WARNING 2019-01-16 09:10:13,476 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 09:10:13,479 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 09:10:17,400 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 09:10:17,402 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2644
+WARNING 2019-01-16 09:10:31,592 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 09:10:31,595 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2644
+INFO 2019-01-16 09:11:33,468 basehttp 124 "GET / HTTP/1.1" 200 17019
+WARNING 2019-01-16 09:11:33,506 log 228 Not Found: /images/linux.jpg
+WARNING 2019-01-16 09:11:33,514 basehttp 124 "GET /images/linux.jpg HTTP/1.1" 404 2577
+WARNING 2019-01-16 09:11:33,511 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 09:11:33,520 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 09:11:33,535 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 09:11:33,547 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 09:11:33,542 log 228 Not Found: /js/base/common.js
+WARNING 2019-01-16 09:11:33,555 basehttp 124 "GET /js/base/common.js HTTP/1.1" 404 2580
+WARNING 2019-01-16 09:11:33,547 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 09:11:33,559 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:11:33,563 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-16 09:11:33,569 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:11:33,573 log 228 Not Found: /images/english.jpg
+WARNING 2019-01-16 09:11:33,582 basehttp 124 "GET /images/english.jpg HTTP/1.1" 404 2583
+WARNING 2019-01-16 09:11:33,581 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-16 09:11:33,594 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2604
+WARNING 2019-01-16 09:11:33,599 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 09:11:33,607 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 09:11:33,606 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 09:11:33,609 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2562
+WARNING 2019-01-16 09:11:34,687 log 228 Not Found: /index.html
+WARNING 2019-01-16 09:11:34,688 basehttp 124 "GET /index.html HTTP/1.1" 404 2559
+WARNING 2019-01-16 09:11:38,179 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-16 09:11:38,180 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:11:38,980 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 09:11:38,982 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2652
+INFO 2019-01-16 09:27:37,543 basehttp 124 "GET / HTTP/1.1" 200 17051
+WARNING 2019-01-16 09:27:37,577 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 09:27:37,598 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2592
+WARNING 2019-01-16 09:27:37,600 log 228 Not Found: /images/linux.jpg
+WARNING 2019-01-16 09:27:37,610 basehttp 124 "GET /images/linux.jpg HTTP/1.1" 404 2577
+INFO 2019-01-16 09:27:37,606 basehttp 124 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-01-16 09:27:37,628 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1510
+WARNING 2019-01-16 09:27:37,646 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 09:27:37,656 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:27:37,656 log 228 Not Found: /images/python_function.jpg
+WARNING 2019-01-16 09:27:37,665 basehttp 124 "GET /images/python_function.jpg HTTP/1.1" 404 2607
+WARNING 2019-01-16 09:27:37,653 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-16 09:27:37,671 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2604
+WARNING 2019-01-16 09:27:37,663 log 228 Not Found: /images/english.jpg
+WARNING 2019-01-16 09:27:37,677 basehttp 124 "GET /images/english.jpg HTTP/1.1" 404 2583
+WARNING 2019-01-16 09:27:37,690 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 09:27:37,692 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2592
+INFO 2019-01-16 09:32:03,405 basehttp 124 "GET / HTTP/1.1" 200 17211
+INFO 2019-01-16 09:32:03,466 basehttp 124 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-01-16 09:32:03,489 basehttp 124 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-01-16 09:32:03,492 basehttp 124 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-01-16 09:32:03,518 basehttp 124 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-01-16 09:32:03,519 basehttp 124 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-01-16 09:32:03,536 basehttp 124 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-01-16 09:32:03,549 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+INFO 2019-01-16 14:36:22,796 basehttp 124 "GET / HTTP/1.1" 200 16476
+WARNING 2019-01-16 14:38:48,914 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 14:38:48,915 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2652
+WARNING 2019-01-16 14:40:22,396 log 228 Not Found: /index.html
+WARNING 2019-01-16 14:40:22,398 basehttp 124 "GET /index.html HTTP/1.1" 404 2559
+INFO 2019-01-16 14:42:01,826 basehttp 124 "GET / HTTP/1.1" 200 16467
+INFO 2019-01-16 14:42:03,146 basehttp 124 "GET / HTTP/1.1" 200 16467
+INFO 2019-01-16 14:42:05,828 basehttp 124 "GET / HTTP/1.1" 200 16467
+INFO 2019-01-16 14:42:08,942 basehttp 124 "GET / HTTP/1.1" 200 16467
+ERROR 2019-01-16 14:42:38,950 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:42:38,963 basehttp 124 "GET / HTTP/1.1" 500 134793
+ERROR 2019-01-16 14:42:41,270 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:42:41,283 basehttp 124 "GET / HTTP/1.1" 500 134645
+ERROR 2019-01-16 14:42:47,026 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:42:47,041 basehttp 124 "GET / HTTP/1.1" 500 134645
+ERROR 2019-01-16 14:43:09,995 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:43:10,018 basehttp 124 "GET / HTTP/1.1" 500 133766
+WARNING 2019-01-16 14:43:21,160 log 228 Not Found: /blog/
+WARNING 2019-01-16 14:43:21,163 basehttp 124 "GET /blog/ HTTP/1.1" 404 2544
+ERROR 2019-01-16 14:43:26,115 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:43:26,126 basehttp 124 "GET / HTTP/1.1" 500 133631
+ERROR 2019-01-16 14:44:08,548 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/news/views.py", line 11, in index
+    return render(request,'news/index.html')
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course' not found. 'course' is not a valid view function or pattern name.
+ERROR 2019-01-16 14:44:08,564 basehttp 124 "GET / HTTP/1.1" 500 133766
+INFO 2019-01-16 14:44:51,675 basehttp 124 "GET / HTTP/1.1" 200 16461
+INFO 2019-01-16 14:44:53,382 basehttp 124 "GET /course/course/ HTTP/1.1" 200 3951
+WARNING 2019-01-16 14:44:53,403 log 228 Not Found: /course/css/base/reset.css
+WARNING 2019-01-16 14:44:53,413 basehttp 124 "GET /course/css/base/reset.css HTTP/1.1" 404 2673
+WARNING 2019-01-16 14:44:53,418 log 228 Not Found: /course/css/course/course.css
+WARNING 2019-01-16 14:44:53,411 log 228 Not Found: /course/css/base/common.css
+WARNING 2019-01-16 14:44:53,424 basehttp 124 "GET /course/css/base/common.css HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:44:53,425 basehttp 124 "GET /course/css/course/course.css HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:44:53,430 log 228 Not Found: /course/images/python_advanced.jpg
+WARNING 2019-01-16 14:44:53,423 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:44:53,437 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:44:53,438 basehttp 124 "GET /course/images/python_advanced.jpg HTTP/1.1" 404 2697
+WARNING 2019-01-16 14:44:53,436 log 228 Not Found: /course/images/python_web.jpg
+WARNING 2019-01-16 14:44:53,439 basehttp 124 "GET /course/images/python_web.jpg HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:44:53,456 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:44:53,458 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+INFO 2019-01-16 14:44:55,766 basehttp 124 "GET / HTTP/1.1" 200 16461
+INFO 2019-01-16 14:44:56,477 basehttp 124 "GET /course/course/ HTTP/1.1" 200 3951
+WARNING 2019-01-16 14:44:56,497 log 228 Not Found: /course/css/base/reset.css
+WARNING 2019-01-16 14:44:56,503 basehttp 124 "GET /course/css/base/reset.css HTTP/1.1" 404 2673
+WARNING 2019-01-16 14:44:56,502 log 228 Not Found: /course/css/base/common.css
+WARNING 2019-01-16 14:44:56,508 basehttp 124 "GET /course/css/base/common.css HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:44:56,517 log 228 Not Found: /course/css/course/course.css
+WARNING 2019-01-16 14:44:56,523 basehttp 124 "GET /course/css/course/course.css HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:44:56,522 log 228 Not Found: /course/images/python_advanced.jpg
+WARNING 2019-01-16 14:44:56,534 basehttp 124 "GET /course/images/python_advanced.jpg HTTP/1.1" 404 2697
+WARNING 2019-01-16 14:44:56,528 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:44:56,536 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:44:56,533 log 228 Not Found: /course/images/python_web.jpg
+WARNING 2019-01-16 14:44:56,537 basehttp 124 "GET /course/images/python_web.jpg HTTP/1.1" 404 2682
+INFO 2019-01-16 14:45:39,180 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:45:41,853 basehttp 124 "GET /doc/ HTTP/1.1" 200 7633
+INFO 2019-01-16 14:45:41,874 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 200 2121
+WARNING 2019-01-16 14:45:43,594 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 14:45:43,595 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2652
+WARNING 2019-01-16 14:45:47,406 log 228 Not Found: /course/course.html
+WARNING 2019-01-16 14:45:47,408 basehttp 124 "GET /course/course.html HTTP/1.1" 404 2652
+INFO 2019-01-16 14:45:56,999 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:45:57,857 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:45:58,373 basehttp 124 "GET /course/course/ HTTP/1.1" 200 3951
+WARNING 2019-01-16 14:45:58,392 log 228 Not Found: /course/css/base/reset.css
+WARNING 2019-01-16 14:45:58,398 basehttp 124 "GET /course/css/base/reset.css HTTP/1.1" 404 2673
+WARNING 2019-01-16 14:45:58,397 log 228 Not Found: /course/css/base/common.css
+WARNING 2019-01-16 14:45:58,408 basehttp 124 "GET /course/css/base/common.css HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:45:58,405 log 228 Not Found: /course/css/course/course.css
+WARNING 2019-01-16 14:45:58,414 basehttp 124 "GET /course/css/course/course.css HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:45:58,413 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:45:58,421 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:45:58,420 log 228 Not Found: /course/images/python_advanced.jpg
+WARNING 2019-01-16 14:45:58,429 basehttp 124 "GET /course/images/python_advanced.jpg HTTP/1.1" 404 2697
+WARNING 2019-01-16 14:45:58,436 log 228 Not Found: /course/images/python_web.jpg
+WARNING 2019-01-16 14:45:58,437 basehttp 124 "GET /course/images/python_web.jpg HTTP/1.1" 404 2682
+INFO 2019-01-16 14:52:42,582 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:52:45,428 basehttp 124 "GET /course/course/ HTTP/1.1" 200 3951
+WARNING 2019-01-16 14:52:45,447 log 228 Not Found: /course/css/base/reset.css
+WARNING 2019-01-16 14:52:45,454 basehttp 124 "GET /course/css/base/reset.css HTTP/1.1" 404 2673
+WARNING 2019-01-16 14:52:45,453 log 228 Not Found: /course/css/course/course.css
+WARNING 2019-01-16 14:52:45,457 basehttp 124 "GET /course/css/course/course.css HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:52:45,463 log 228 Not Found: /course/css/base/common.css
+WARNING 2019-01-16 14:52:45,473 basehttp 124 "GET /course/css/base/common.css HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:52:45,468 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:52:45,474 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+WARNING 2019-01-16 14:52:45,472 log 228 Not Found: /course/images/python_web.jpg
+WARNING 2019-01-16 14:52:45,476 basehttp 124 "GET /course/images/python_web.jpg HTTP/1.1" 404 2682
+WARNING 2019-01-16 14:52:45,480 log 228 Not Found: /course/images/python_advanced.jpg
+WARNING 2019-01-16 14:52:45,483 basehttp 124 "GET /course/images/python_advanced.jpg HTTP/1.1" 404 2697
+WARNING 2019-01-16 14:52:45,497 log 228 Not Found: /course/course/js/common.js
+WARNING 2019-01-16 14:52:45,498 basehttp 124 "GET /course/course/js/common.js HTTP/1.1" 404 2676
+INFO 2019-01-16 14:52:49,077 basehttp 124 "GET /doc/ HTTP/1.1" 200 8836
+INFO 2019-01-16 14:54:19,669 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:54:22,111 basehttp 124 "GET /doc/ HTTP/1.1" 200 5130
+INFO 2019-01-16 14:54:38,895 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:54:45,367 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:54:46,406 basehttp 124 "GET /doc/ HTTP/1.1" 200 2889
+INFO 2019-01-16 14:54:55,260 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 14:54:56,544 basehttp 124 "GET /doc/ HTTP/1.1" 200 8836
+INFO 2019-01-16 15:00:09,355 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 15:00:10,444 basehttp 124 "GET /doc/ HTTP/1.1" 200 5127
+INFO 2019-01-16 15:02:26,568 basehttp 124 "GET / HTTP/1.1" 200 16443
+INFO 2019-01-16 15:05:56,112 basehttp 124 "GET / HTTP/1.1" 200 16445
+INFO 2019-01-16 15:05:57,410 basehttp 124 "GET /doc/ HTTP/1.1" 200 7510
+INFO 2019-01-16 15:14:14,464 basehttp 124 "GET / HTTP/1.1" 200 16435
+INFO 2019-01-16 15:14:16,012 basehttp 124 "GET /search/ HTTP/1.1" 200 12364
+WARNING 2019-01-16 15:14:16,043 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 15:14:16,050 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2761
+WARNING 2019-01-16 15:14:16,054 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 15:14:16,066 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2755
+INFO 2019-01-16 15:14:16,059 basehttp 124 "GET /static/css/news/search.css HTTP/1.1" 200 2803
+WARNING 2019-01-16 15:14:16,069 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 15:14:16,076 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2731
+WARNING 2019-01-16 15:14:16,065 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 15:14:16,078 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2776
+WARNING 2019-01-16 15:14:16,075 log 228 Not Found: /images/jichujiaochen.jpeg
+WARNING 2019-01-16 15:14:16,087 basehttp 124 "GET /images/jichujiaochen.jpeg HTTP/1.1" 404 2773
+WARNING 2019-01-16 15:14:16,086 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 15:14:16,089 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2761
+WARNING 2019-01-16 15:14:16,100 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 15:14:16,101 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2755
+WARNING 2019-01-16 15:14:16,116 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 15:14:16,117 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2731
+INFO 2019-01-16 15:15:31,660 basehttp 124 "GET / HTTP/1.1" 200 16435
+INFO 2019-01-16 15:15:32,519 basehttp 124 "GET /search/ HTTP/1.1" 200 12406
+WARNING 2019-01-16 15:15:32,533 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 15:15:32,534 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2761
+WARNING 2019-01-16 15:15:32,544 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 15:15:32,549 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2755
+WARNING 2019-01-16 15:15:32,556 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 15:15:32,557 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2731
+INFO 2019-01-16 15:16:01,096 basehttp 124 "GET /search/ HTTP/1.1" 200 12406
+WARNING 2019-01-16 15:16:01,114 log 228 Not Found: /images/python_gui.jpg
+WARNING 2019-01-16 15:16:01,115 basehttp 124 "GET /images/python_gui.jpg HTTP/1.1" 404 2761
+WARNING 2019-01-16 15:16:01,123 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 15:16:01,129 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2755
+WARNING 2019-01-16 15:16:01,134 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 15:16:01,138 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2731
+INFO 2019-01-16 15:16:05,588 basehttp 124 "GET /search/ HTTP/1.1" 200 12416
+WARNING 2019-01-16 15:16:05,612 log 228 Not Found: /search/js/common.js
+WARNING 2019-01-16 15:16:05,619 basehttp 124 "GET /search/js/common.js HTTP/1.1" 404 2755
+WARNING 2019-01-16 15:16:05,618 log 228 Not Found: /js/index.js
+WARNING 2019-01-16 15:16:05,623 basehttp 124 "GET /js/index.js HTTP/1.1" 404 2731
+INFO 2019-01-16 15:52:53,501 basehttp 124 "GET / HTTP/1.1" 200 16435
+WARNING 2019-01-16 15:52:55,068 log 228 Not Found: /users/login.html
+WARNING 2019-01-16 15:52:55,069 basehttp 124 "GET /users/login.html HTTP/1.1" 404 2992
+INFO 2019-01-16 15:53:47,801 basehttp 124 "GET / HTTP/1.1" 200 16423
+INFO 2019-01-16 15:53:49,206 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7484
+INFO 2019-01-16 15:53:52,614 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7484
+INFO 2019-01-16 15:54:23,468 basehttp 124 "GET / HTTP/1.1" 200 16423
+INFO 2019-01-16 15:54:24,755 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7483
+INFO 2019-01-16 15:54:27,811 basehttp 124 "GET /users/register/ HTTP/1.1" 200 8153
+WARNING 2019-01-16 15:54:27,832 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 15:54:27,834 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3016
+INFO 2019-01-16 15:56:52,200 basehttp 124 "GET / HTTP/1.1" 200 16423
+INFO 2019-01-16 15:56:53,375 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7547
+INFO 2019-01-16 15:56:53,412 basehttp 124 "GET /static/css/authPro/auth.css HTTP/1.1" 200 3286
+INFO 2019-01-16 15:56:56,101 basehttp 124 "GET /users/register/ HTTP/1.1" 200 8206
+WARNING 2019-01-16 15:56:56,122 log 228 Not Found: /users/css/authPro/auth.css
+WARNING 2019-01-16 15:56:56,128 basehttp 124 "GET /users/css/authPro/auth.css HTTP/1.1" 404 3022
+WARNING 2019-01-16 15:56:56,127 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 15:56:56,130 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3016
+INFO 2019-01-16 15:56:57,774 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7547
+INFO 2019-01-16 15:57:22,512 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7547
+INFO 2019-01-16 15:57:24,516 basehttp 124 "GET /users/register/ HTTP/1.1" 200 8216
+WARNING 2019-01-16 15:57:24,532 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 15:57:24,534 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3016
+INFO 2019-01-16 15:58:15,568 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7484
+INFO 2019-01-16 15:58:18,135 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7484
+INFO 2019-01-16 15:58:28,567 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7484
+INFO 2019-01-16 15:58:32,509 basehttp 124 "GET /users/login/ HTTP/1.1" 200 7547
+INFO 2019-01-16 15:59:34,306 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 16:04:44,713 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 16:04:45,905 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 16:04:46,673 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4506
+WARNING 2019-01-16 16:04:46,698 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 16:04:46,699 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3016
+INFO 2019-01-16 16:04:47,586 basehttp 124 "GET / HTTP/1.1" 200 16423
+INFO 2019-01-16 16:04:50,280 basehttp 124 "GET /doc/ HTTP/1.1" 200 5099
+INFO 2019-01-16 16:04:53,417 basehttp 124 "GET /course/ HTTP/1.1" 200 4192
+WARNING 2019-01-16 16:04:53,442 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 16:04:53,446 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2761
+INFO 2019-01-16 16:04:53,446 basehttp 124 "GET /static/css/course/course.css HTTP/1.1" 200 1916
+WARNING 2019-01-16 16:04:53,445 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 16:04:53,448 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2776
+INFO 2019-01-16 16:04:56,892 basehttp 124 "GET /course/ HTTP/1.1" 200 4192
+WARNING 2019-01-16 16:04:56,918 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 16:04:56,921 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2776
+WARNING 2019-01-16 16:04:56,926 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 16:04:56,928 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2761
+INFO 2019-01-16 16:05:17,593 basehttp 124 "GET /course/ HTTP/1.1" 200 4192
+WARNING 2019-01-16 16:05:17,619 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 16:05:17,620 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2776
+WARNING 2019-01-16 16:05:17,629 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 16:05:17,630 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2761
+INFO 2019-01-16 16:05:21,575 basehttp 124 "GET /course/ HTTP/1.1" 200 7902
+WARNING 2019-01-16 16:05:21,605 log 228 Not Found: /images/python_advanced.jpg
+WARNING 2019-01-16 16:05:21,617 basehttp 124 "GET /images/python_advanced.jpg HTTP/1.1" 404 2776
+WARNING 2019-01-16 16:05:21,615 log 228 Not Found: /images/python_web.jpg
+WARNING 2019-01-16 16:05:21,622 basehttp 124 "GET /images/python_web.jpg HTTP/1.1" 404 2761
+INFO 2019-01-16 16:06:18,810 basehttp 124 "GET /course/ HTTP/1.1" 200 7922
+INFO 2019-01-16 16:06:51,341 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:07:11,171 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:07:16,285 basehttp 124 "GET /doc/ HTTP/1.1" 200 5099
+INFO 2019-01-16 16:07:40,050 basehttp 124 "GET /doc/ HTTP/1.1" 200 8809
+INFO 2019-01-16 16:10:49,252 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:10:50,315 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 16:10:51,030 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 16:10:51,616 basehttp 124 "GET /doc/ HTTP/1.1" 200 7626
