@@ -866,3 +866,60 @@ INFO 2019-01-16 16:39:54,697 basehttp 124 "GET /static/js/common.js HTTP/1.1" 20
 INFO 2019-01-16 16:39:56,594 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
 INFO 2019-01-16 16:39:58,122 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
 INFO 2019-01-16 16:39:59,113 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
+WARNING 2019-01-16 17:12:34,441 log 228 Not Found: /register_test/
+WARNING 2019-01-16 17:12:34,443 basehttp 124 "GET /register_test/ HTTP/1.1" 404 2636
+WARNING 2019-01-16 17:13:41,219 log 228 Not Found: /register
+WARNING 2019-01-16 17:13:41,222 basehttp 124 "GET /register HTTP/1.1" 404 2618
+WARNING 2019-01-16 17:13:46,701 log 228 Not Found: /register/
+WARNING 2019-01-16 17:13:46,704 basehttp 124 "GET /register/ HTTP/1.1" 404 2621
+INFO 2019-01-16 17:14:00,487 basehttp 124 "GET /users/register_test/ HTTP/1.1" 200 4506
+WARNING 2019-01-16 17:14:00,511 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 17:14:00,513 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3101
+INFO 2019-01-16 17:14:08,867 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4506
+WARNING 2019-01-16 17:14:08,889 log 228 Not Found: /users/images/captcha.png
+WARNING 2019-01-16 17:14:08,890 basehttp 124 "GET /users/images/captcha.png HTTP/1.1" 404 3101
+INFO 2019-01-16 17:14:48,758 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+INFO 2019-01-16 17:14:48,774 basehttp 124 "GET /static/images/captcha.png HTTP/1.1" 200 4296
+INFO 2019-01-16 17:15:30,973 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+INFO 2019-01-16 17:15:32,968 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 17:15:33,824 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 17:15:34,512 basehttp 124 "GET /doc/ HTTP/1.1" 200 7626
+INFO 2019-01-16 17:15:35,044 basehttp 124 "GET /search/ HTTP/1.1" 200 10991
+INFO 2019-01-16 17:15:35,894 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 17:15:36,495 basehttp 124 "GET /course/ HTTP/1.1" 200 4212
+INFO 2019-01-16 17:15:37,090 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 17:15:37,989 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+WARNING 2019-01-16 17:15:39,398 log 228 Forbidden (CSRF token missing or incorrect.): /users/login/
+WARNING 2019-01-16 17:15:39,400 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2508
+INFO 2019-01-16 17:17:01,057 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+WARNING 2019-01-16 17:17:02,178 log 228 Forbidden (CSRF token missing or incorrect.): /users/register/
+WARNING 2019-01-16 17:17:02,180 basehttp 124 "POST /users/register/ HTTP/1.1" 403 2508
+INFO 2019-01-16 17:19:31,886 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+INFO 2019-01-16 17:19:35,826 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+INFO 2019-01-16 17:19:39,569 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 17:19:44,139 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+INFO 2019-01-16 17:19:45,098 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516
+INFO 2019-01-16 17:19:45,762 basehttp 124 "GET /users/login/ HTTP/1.1" 200 3837
+WARNING 2019-01-16 19:14:01,712 log 228 Not Found: /admin/
+WARNING 2019-01-16 19:14:01,714 basehttp 124 "GET /admin/ HTTP/1.1" 404 2612
+WARNING 2019-01-16 19:14:20,521 log 228 Not Found: /admin/
+WARNING 2019-01-16 19:14:20,529 basehttp 124 "GET /admin/ HTTP/1.1" 404 2612
+INFO 2019-01-16 19:14:22,909 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-01-16 19:14:23,017 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2019-01-16 19:14:23,092 basehttp 124 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2019-01-16 19:14:23,093 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2019-01-16 19:14:23,100 basehttp 124 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2019-01-16 19:14:23,106 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-01-16 19:14:23,127 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2019-01-16 19:14:23,160 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2019-01-16 19:14:33,537 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2019-01-16 19:14:33,587 basehttp 124 "GET /admin/ HTTP/1.1" 200 2580
+INFO 2019-01-16 19:14:33,610 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2019-01-16 19:14:33,627 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-01-16 19:14:33,636 basehttp 124 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-01-16 19:14:33,657 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2019-01-16 19:14:37,909 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2019-01-16 19:14:37,940 basehttp 124 "GET /admin/ HTTP/1.1" 200 2580
+INFO 2019-01-16 19:15:25,048 basehttp 124 "GET /admin/ HTTP/1.1" 200 2580
+INFO 2019-01-16 19:15:31,004 basehttp 124 "GET / HTTP/1.1" 200 16415
+INFO 2019-01-16 19:42:13,947 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4516

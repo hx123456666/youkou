@@ -11,9 +11,14 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+# import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 创建应用之后，把apps目录加入到sys.path中
+# sys.path.insert(0,BASE_DIR)
+# sys.path.insert(1,os.path.join(BASE_DIR,'apps'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,6 +31,8 @@ SECRET_KEY = 't9-=@h#l=b8wob*w(tz0=c^^c&ehsh1ok@!53c*+1e%lj)$0pr'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+AUTH_USER_MODEL = 'users.Users'
 
 
 # Application definition
