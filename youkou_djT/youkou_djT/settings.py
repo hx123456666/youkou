@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'apps.doc',
     'apps.course',
     'apps.one',
+    'apps.verifications',
 ]
 
 MIDDLEWARE = [
@@ -108,10 +109,37 @@ CACHES = {
         'LOCATION':'redis://127.0.0.1:6379/0',
         'OPTIONS':{
             'CLIENT_CLASS':'django_redis.client.DefaultClient',
+            # "PASSWORD": "musecret"
         }
-    }
+    },
+    # 同样可以指定多个redis
+    "session":{
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS":{
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "verify_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "sms_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 
+# 将用户的session保存到redis中
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# 指定缓存redis的别名
+SESSION_CACHE_ALIAS = "session"
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators

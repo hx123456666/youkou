@@ -23,4 +23,5 @@ urlpatterns = [
     path('doc/',include('apps.doc.urls')),
     path('course/',include('apps.course.urls')),
     path('one/',include('apps.one.urls')),
+    path('',include('apps.verifications.urls'))
 ]
