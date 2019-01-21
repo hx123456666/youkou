@@ -3,16 +3,16 @@
 # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
 from utils.yuntongxun.CCPRestSDK import REST
 
-_accountSid = '8a216da8685986c20168601c3ec7039b' # '开发者主账号中的ACCOUNT SID'
+_accountSid = '开发者主账号中的ACCOUNT SID'
 
 # 说明：主账号Token，登陆云通讯网站后，可在控制台-应用中看到开发者主账号AUTH TOKEN
-_accountToken = '7d752e34814740398b850a41f42609a6'  # '开发者主账号中的AUTH TOKEN'
+_accountToken = '开发者主账号中的AUTH TOKEN'
 
 # 请使用管理控制台首页的APPID或自己创建应用的APPID
-_appId = '8a216da8685986c20168601c3f1d03a1' # '开发者主账号中的AppID(默认)'
+_appId = '开发者主账号中的AppID(默认)'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
-_serverIP = 'sandboxapp.cloopen.com' #
+_serverIP = 'sandboxapp.cloopen.com'
 
 # 说明：请求端口 ，生产环境为8883
 _serverPort = "8883"
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     # 注意： 测试的短信模板编号为1
     result = None
     while True:
-        result = ccp.send_template_sms('17767100789', ['6666', 5], "1")
+        result = ccp.send_template_sms('18866668888', ['6666', 5], "1")
         if result == 0:
             print('短信验证码发送成功！')
             break

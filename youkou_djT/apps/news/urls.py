@@ -5,6 +5,6 @@ from . import views
 app_name = 'news'
 # <a href="{% url 'new"></a>
 urlpatterns = [
-    path('',views.index,name='index'),
+    path('',views.IndexView.as_view(),name='index'),
     path('search/',views.serch,name='search')
 ]

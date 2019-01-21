@@ -126,98 +126,6 @@ class CheckMobilesView(View):
         return to_json_data(data=data)
 
 
-# class SmsCodeView(View):
-#     """
-#     send mobile sms code
-#     POST /sms_codes/
-#     """
-#     def post(self,request):
-#         # 1、
-#         json_data = request.body
-#         if not json_data:
-#             return to_json_data(errno=Code.PARAMERR,errmsg=error_map[Code.PARAMERR])
-
-import re
-# 1、创建一个类视图
-# class SmsCodesView(View):
-#     """
-#     send mobile sms code
-#     POST /sms_codes/
-#     1、创建一个类视图
-#     2、获取前端参数
-#     3、校验参数
-#     4、发生短信验证码
-#     5、保存短信验证码到redis
-#     6、返回前端
-#     """
-#     def post(self, request):
-#         # 2、获取前端参数
-#         json_data = request.body
-#         if not json_data:
-#             return to_json_data(errno=Code.PARAMERR, errmsg=error_map[Code.PARAMERR])
-#         # 将json转化为dict
-#         dict_data = json.loads(json_data.decode('utf8'))
-#         # 2、
-#         form = forms.CheckImgCodeForm(data=dict_data)
-#         if form.is_valid():
-#             # 获取手机号
-#             mobile = form.cleaned_data.get('mobile')
-#             # 3、
-#             # 创建短信验证码内容
-#             sms_num = ''.join([random.choice(string.digits) for _ in range(constants.SMS_CODE_NUMS)])
-#
-#             # 将短信验证码保存到数据库
-#             # 确保settings.py文件中有配置redis CACHE
-#             # Redis原生指令参考 http://redisdoc.com/index.html
-#             # Redis python客户端 方法参考 http://redis-py.readthedocs.io/en/latest/#indices-and-tables
-#             # 4、
-#             redis_conn = get_redis_connection(alias='verify_codes')
-#             pl = redis_conn.pipeline()
-#
-#             # 创建一个在60s以内是否有发送短信记录的标记
-#             sms_flag_fmt = "sms_flag_{}".format(mobile)
-#             # 创建保存短信验证码的标记key
-#             sms_text_fmt = "sms_{}".format(mobile)
-#
-#             # 此处设置为True会出现bug
-#             try:
-#                 pl.setex(sms_flag_fmt.encode('utf8'), constants.SEND_SMS_CODE_INTERVAL, 1)
-#                 pl.setex(sms_text_fmt.encode('utf8'), constants.SMS_CODE_REDIS_EXPIRES, sms_num)
-#                 # 让管道通知redis执行命令
-#                 pl.execute()
-#             except Exception as e:
-#                 logger.debug("redis 执行出现异常：{}".format(e))
-#                 return to_json_data(errno=Code.UNKOWNERR, errmsg=error_map[Code.UNKOWNERR])
-#
-#             logger.info("Sms code: {}".format(sms_num))
-#
-#             # 发送短语验证码
-#             try:
-#                 result = CCP().send_template_sms(mobile,
-#                                                  [sms_num, constants.SMS_CODE_REDIS_EXPIRES],
-#                                                  constants.SMS_CODE_TEMP_ID)
-#             except Exception as e:
-#                 logger.error("发送验证码短信[异常][ mobile: %s, message: %s ]" % (mobile, e))
-#                 return to_json_data(errno=Code.SMSERROR, errmsg=error_map[Code.SMSERROR])
-#             else:
-#                 if result == 0:
-#                     logger.info("发送验证码短信[正常][ mobile: %s sms_code: %s]" % (mobile, sms_num))
-#                     return to_json_data(errno=Code.OK, errmsg="短信验证码发送成功")
-#                 else:
-#                     logger.warning("发送验证码短信[失败][ mobile: %s ]" % mobile)
-#                     return to_json_data(errno=Code.SMSFAIL, errmsg=error_map[Code.SMSFAIL])
-#
-#         else:
-#             # 定义一个错误信息列表
-#             err_msg_list = []
-#             for item in form.errors.get_json_data().values():
-#                 err_msg_list.append(item[0].get('message'))
-#                 # print(item[0].get('message'))   # for test
-#             err_msg_str = '/'.join(err_msg_list)  # 拼接错误信息为一个字符串
-#
-#             return to_json_data(errno=Code.PARAMERR, errmsg=err_msg_str)
-
-
 
 # 1、创建一个类视图
 class SmsCodesView(View):
@@ -252,12 +160,13 @@ class SmsCodesView(View):
             # Redis原生指令参考 http://redisdoc.com/index.html
             # Redis python客户端 方法参考 http://redis-py.readthedocs.io/en/latest/#indices-and-tables
             redis_con = get_redis_connection(alias="verify_codes")
-            p1 = redis_con.pipeline() # 定义一个管道
+
+
             sms_flag_fmt = "sms_flag_{}".format(mobile).encode("utf-8") # 构造短信验证码的key,即短信验证码的记录
             sms_text_fmt = "sms_{}".format(mobile).encode("utf-8") # 构造短信验证码的文本
 
             # redis_con.setex(sms_flag_fmt,constants.SEND_SMS_CODE_INTERVAL,sms_text_fmt)
-
+            p1 = redis_con.pipeline()  # 定义一个管道
             # 此处设置为True会出现bug
             try:
                 p1.setex(sms_flag_fmt,constants.SEND_SMS_CODE_INTERVAL,1)
@@ -269,23 +178,28 @@ class SmsCodesView(View):
                 return to_json_data(errno=Code.UNKOWNERR,errmsg=error_map[Code.UNKOWNERR])
             logger.info("Sms Code: {}".format(sms_num))
 
+            # 测试时短信验证码发送代码,把发送短信验证码先注释掉
+    # def set_sms(self,mobile,sms_num):
+            logger.info("发送验证码电信[正常][ moblie : %s sms_code: %s]" % (mobile,sms_num))
+            return to_json_data(errno=Code.OK,errmsg="短信验证码发送成功！")
 
 
-            # 发送短语验证码
-            try:
-                result = CCP().send_template_sms(mobile,
-                                                 [sms_num, constants.SMS_CODE_REDIS_EXPIRES],
-                                                 constants.SMS_CODE_TEMP_ID)
-            except Exception as e:
-                logger.error("发送验证码短信[异常][ mobile: %s, message: %s ]" % (mobile, e))
-                return to_json_data(errno=Code.SMSERROR, errmsg=error_map[Code.SMSERROR])
-            else:
-                if result == 0:
-                    logger.info("发送验证码短信[正常][ mobile: %s sms_code: %s]" % (mobile, sms_num))
-                    return to_json_data(errno=Code.OK, errmsg="短信验证码发送成功")
-                else:
-                    logger.warning("发送验证码短信[失败][ mobile: %s ]" % mobile)
-                    return to_json_data(errno=Code.SMSFAIL, errmsg=error_map[Code.SMSFAIL])
+
+            # # 发送短语验证码
+            # try:
+            #     result = CCP().send_template_sms(mobile,
+            #                                      [sms_num, constants.SMS_CODE_REDIS_EXPIRES],
+            #                                      constants.SMS_CODE_TEMP_ID)
+            # except Exception as e:
+            #     logger.error("发送验证码短信[异常][ mobile: %s, message: %s ]" % (mobile, e))
+            #     return to_json_data(errno=Code.SMSERROR, errmsg=error_map[Code.SMSERROR])
+            # else:
+            #     if result == 0:
+            #         logger.info("发送验证码短信[正常][ mobile: %s sms_code: %s]" % (mobile, sms_num))
+            #         return to_json_data(errno=Code.OK, errmsg="短信验证码发送成功")
+            #     else:
+            #         logger.warning("发送验证码短信[失败][ mobile: %s ]" % mobile)
+            #         return to_json_data(errno=Code.SMSFAIL, errmsg=error_map[Code.SMSFAIL])
 
         else:
             # 定义一个错误信息列表
@@ -299,8 +213,6 @@ class SmsCodesView(View):
 
 
         # 6、返回前端
-
-
 
 
 

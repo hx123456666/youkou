@@ -40,6 +40,19 @@
     <!-- nav end -->
     <!-- login start -->
       <div class="login-box">
+      <!-- is_authenticated request -->
+        {% if user.is_authenticated %}
+          <div class="author">
+              <i class="PyWhich py-user"></i>
+              <span>{{ user }}</span>
+              <ul class="author-menu">
+                {% if user.is_staff %}
+                  <li><a href="javascript:void(0);">后台管理</a></li>
+                {% endif %}
+                  <li><a href="{% url 'user:logout' %}">退出登录</a></li>
+              </ul>
+          </div>
+        {% else %}
           <div>
               <i class="PyWhich py-user"></i>
               <span>
@@ -47,6 +60,7 @@
                   <a href="{% url 'user:register' %}" class="reg">注册</a>
               </span>
           </div>
+        {% endif %}
           <div class="author hide">
               <i class="PyWhich py-user"></i>
               <span>qwertyui</span>

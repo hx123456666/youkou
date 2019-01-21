@@ -138,7 +138,5 @@ Message.prototype.show = function (message, type) {
     }, 2500);
   });
 };
-
-
 // 将对象绑定到 window 上
 window.message = new Message();

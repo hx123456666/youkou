@@ -5,8 +5,7 @@ $(function () {
   let $mobile = $('#mobile');  // 选择id为mobile的网页元素，需要定义一个id为mobile
   let $smsCodeBtn = $('.form-item .sms-captcha');  // 获取短信验证码按钮元素，需要定义一个id为input_smscode
   let $imgCodeText = $('#input_captcha');  // 获取用户输入的图片验证码元素，需要定义一个id为input_captcha
-  // let $register = $('.form-item .register-btn');  //
-  let $register = $('.form-contain');
+  let $register = $('.form-contain'); // 获取注册表单元素
 
   // 1、图像验证码逻辑
   generateImageCode();  // 生成图像验证码图片
@@ -319,7 +318,6 @@ $(function () {
     }
   });
 });
-
 
 
 

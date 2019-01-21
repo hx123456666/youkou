@@ -1,4 +1,4 @@
-"""youkou_djT URL Configuration
+"""youko_djT URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -22,6 +22,5 @@ urlpatterns = [
     path('users/',include('apps.users.urls')),
     path('doc/',include('apps.doc.urls')),
     path('course/',include('apps.course.urls')),
-    path('one/',include('apps.one.urls')),
     path('',include('apps.verifications.urls'))
 ]

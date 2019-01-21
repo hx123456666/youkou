@@ -1,9 +1,5 @@
 
 
-
-
-</body>
-</html>
 {% extends 'base/base.html' %}
 
 {% block title %}
@@ -11,7 +7,7 @@
 {% endblock %}
 
 {% block link %}
-<link rel="stylesheet" href="../../static/css/authPro/auth.css">
+  <link rel="stylesheet" href="{% static 'css/authPro/auth.css' %}">
 {% endblock %}
 
 <!-- container start -->
@@ -26,10 +22,10 @@
     </div>
     <form action="" method="post" class="form-contain">
       <div class="form-item">
-        <input type="tel" placeholder="请输入手机号" name="telephone" class="form-control" autocomplete="off">
+        用户名：<input type="tel" placeholder="请输入手机号或者用户名" name="telephone" class="form-control" autocomplete="off">
       </div>
       <div class="form-item">
-        <input type="password" placeholder="请输入密码" name="password" class="form-control">
+        密&nbsp;码：<input type="password" placeholder="请输入密码" name="password" class="form-control">
       </div>
       <div class="form-item clearfix">
         <label>
@@ -45,6 +41,10 @@
   </div>
   </main>
 
+{% endblock %}
+
+{% block script %}
+  <script src="{% static 'js/users/login.js' %}"></script>
 {% endblock %}
 
 <!-- container end -->
