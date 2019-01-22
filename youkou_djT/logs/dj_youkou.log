@@ -76,3 +76,32 @@ INFO 2019-01-21 22:02:12,337 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
 INFO 2019-01-21 22:02:13,377 basehttp 124 "GET / HTTP/1.1" 200 16538
 INFO 2019-01-21 22:38:13,688 basehttp 124 "GET / HTTP/1.1" 200 16460
 INFO 2019-01-21 22:39:36,107 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 11:39:01,927 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-01-22 11:39:01,977 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-01-22 11:39:01,981 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-01-22 11:39:02,686 basehttp 124 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-01-22 11:39:02,690 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+INFO 2019-01-22 11:39:02,703 basehttp 124 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-01-22 11:39:02,714 basehttp 124 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-01-22 11:39:02,715 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 200 3570
+INFO 2019-01-22 11:39:02,734 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-01-22 11:39:02,747 basehttp 124 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-01-22 11:39:02,784 basehttp 124 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-01-22 11:39:02,785 basehttp 124 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-01-22 11:39:02,795 basehttp 124 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-01-22 11:39:02,802 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 200 24527
+INFO 2019-01-22 11:39:02,826 basehttp 124 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-01-22 11:39:02,852 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+WARNING 2019-01-22 11:39:05,207 log 228 Not Found: /favicon.ico
+WARNING 2019-01-22 11:39:05,209 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3425
+WARNING 2019-01-22 11:39:43,263 log 228 Not Found: /favicon.ico
+WARNING 2019-01-22 11:39:43,267 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3425
+INFO 2019-01-22 11:41:38,423 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-01-22 11:41:39,188 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 11:41:41,801 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 11:41:41,825 basehttp 124 "GET /static/css/authPro/auth.css HTTP/1.1" 200 3286
+INFO 2019-01-22 11:41:41,834 basehttp 124 "GET /static/js/users/login.js HTTP/1.1" 200 3776
+INFO 2019-01-22 11:41:42,886 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 11:41:43,961 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 11:56:08,287 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 11:56:08,312 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
