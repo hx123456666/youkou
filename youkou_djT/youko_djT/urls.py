@@ -25,4 +25,4 @@ urlpatterns = [
     path('doc/',include('apps.doc.urls')),
     path('course/',include('apps.course.urls')),
     path('',include('apps.verifications.urls'))
-] + static(settings.STATIC_URL, document_root = settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)

@@ -105,3 +105,963 @@ INFO 2019-01-22 11:41:42,886 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
 INFO 2019-01-22 11:41:43,961 basehttp 124 "GET / HTTP/1.1" 200 16554
 INFO 2019-01-22 11:56:08,287 basehttp 124 "GET / HTTP/1.1" 200 16554
 INFO 2019-01-22 11:56:08,312 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:17:19,531 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:17:19,562 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:19:21,221 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:19:21,231 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:19:21,254 basehttp 124 "GET /static/js/users/login.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:19:22,368 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:19:23,431 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:19:25,065 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:19:25,072 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:19:26,340 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4785
+INFO 2019-01-22 17:19:26,358 basehttp 124 "GET /static/js/users/auth.js HTTP/1.1" 200 10738
+INFO 2019-01-22 17:19:26,535 views 61 Image code: ZUPX
+INFO 2019-01-22 17:19:26,538 basehttp 124 "GET /image_codes/9485f9a8-b650-4a98-9b70-d81f78e3b0ef/ HTTP/1.1" 200 2828
+INFO 2019-01-22 17:19:34,413 basehttp 124 "GET /usernames/pyvip/ HTTP/1.1" 200 71
+INFO 2019-01-22 17:19:39,055 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-01-22 17:19:45,634 basehttp 124 "GET /usernames/huangxiang/ HTTP/1.1" 200 76
+INFO 2019-01-22 17:20:01,237 basehttp 124 "GET /mobiles/18812121212/ HTTP/1.1" 200 75
+INFO 2019-01-22 17:20:03,666 basehttp 124 "GET /mobiles/18812121212/ HTTP/1.1" 200 75
+INFO 2019-01-22 17:20:05,921 basehttp 124 "GET /mobiles/18812121212/ HTTP/1.1" 200 75
+INFO 2019-01-22 17:20:05,938 views 179 Sms Code: 012550
+INFO 2019-01-22 17:20:05,938 views 183 发送验证码电信[正常][ moblie : 18812121212 sms_code: 012550]
+INFO 2019-01-22 17:20:05,939 basehttp 124 "POST /sms_codes/ HTTP/1.1" 200 102
+INFO 2019-01-22 17:20:12,927 basehttp 124 "GET /usernames/huangxiang/ HTTP/1.1" 200 76
+INFO 2019-01-22 17:20:12,953 basehttp 124 "GET /mobiles/18812121212/ HTTP/1.1" 200 75
+INFO 2019-01-22 17:20:13,131 basehttp 124 "POST /users/register/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:20:14,176 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4036
+INFO 2019-01-22 17:20:18,781 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:20:18,789 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:20:20,112 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:20:22,276 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:20:23,315 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4032
+INFO 2019-01-22 17:20:24,567 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:20:26,026 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:20:26,035 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:20:34,548 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:20:35,594 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:20:38,699 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:20:38,708 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:20:45,525 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:20:46,563 basehttp 124 "GET / HTTP/1.1" 200 16644
+INFO 2019-01-22 17:20:51,048 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:20:51,056 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:26:58,504 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:26:59,554 basehttp 124 "GET / HTTP/1.1" 200 16649
+INFO 2019-01-22 17:27:09,197 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:27:09,206 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:27:11,631 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4785
+INFO 2019-01-22 17:27:11,694 views 61 Image code: KCDP
+INFO 2019-01-22 17:27:11,696 basehttp 124 "GET /image_codes/c5ac34e2-f422-4e7f-99d8-7a33f729e0c8/ HTTP/1.1" 200 2897
+INFO 2019-01-22 17:27:54,728 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:27:56,730 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:27:57,786 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4799
+INFO 2019-01-22 17:27:57,836 views 61 Image code: RWIP
+INFO 2019-01-22 17:27:57,839 basehttp 124 "GET /image_codes/ff3f5470-bf70-45d2-957d-f5d74fb48811/ HTTP/1.1" 200 3141
+INFO 2019-01-22 17:27:59,445 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:28:09,949 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:28:15,144 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:29:37,862 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:29:37,875 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:29:43,898 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:29:44,939 basehttp 124 "GET / HTTP/1.1" 200 16649
+INFO 2019-01-22 17:29:49,702 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:29:49,712 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:29:54,640 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:29:55,687 basehttp 124 "GET / HTTP/1.1" 200 16644
+INFO 2019-01-22 17:32:53,433 basehttp 124 "GET / HTTP/1.1" 200 16644
+INFO 2019-01-22 17:52:42,935 basehttp 124 "GET / HTTP/1.1" 200 16644
+INFO 2019-01-22 17:52:42,961 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:52:48,123 basehttp 124 "GET / HTTP/1.1" 200 16644
+INFO 2019-01-22 17:52:48,139 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:52:51,769 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:52:51,779 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:52:51,797 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-01-22 17:52:54,007 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:52:55,072 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-01-22 17:52:57,879 basehttp 124 "GET /users/logout/ HTTP/1.1" 302 0
+INFO 2019-01-22 17:52:57,889 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-01-22 17:53:07,044 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-01-22 17:53:08,087 basehttp 124 "GET / HTTP/1.1" 200 16649
+INFO 2019-01-25 19:20:11,186 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-01-25 19:20:11,257 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-01-25 19:20:11,259 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-01-25 19:20:11,793 basehttp 124 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-01-25 19:20:11,801 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+INFO 2019-01-25 19:20:11,824 basehttp 124 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-01-25 19:20:11,827 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-01-25 19:20:11,835 basehttp 124 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-01-25 19:20:11,838 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 200 3570
+INFO 2019-01-25 19:20:11,850 basehttp 124 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-01-25 19:20:11,860 basehttp 124 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-01-25 19:20:11,856 basehttp 124 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-01-25 19:20:11,880 basehttp 124 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-01-25 19:20:11,886 basehttp 124 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-01-25 19:20:11,918 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+INFO 2019-01-25 19:20:11,961 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 200 24527
+WARNING 2019-01-25 19:20:13,590 log 228 Not Found: /favicon.ico
+WARNING 2019-01-25 19:20:13,615 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3553
+WARNING 2019-01-25 19:24:07,610 log 228 Not Found: /ss_form/
+WARNING 2019-01-25 19:24:07,613 basehttp 124 "GET /ss_form/ HTTP/1.1" 404 3544
+INFO 2019-01-25 19:24:09,209 basehttp 124 "GET /search/ HTTP/1.1" 200 11100
+INFO 2019-01-25 19:24:09,242 basehttp 124 "GET /static/css/news/search.css HTTP/1.1" 200 2803
+INFO 2019-01-25 19:24:09,250 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 223
+INFO 2019-01-25 19:24:56,235 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-13 20:02:39,581 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-13 20:02:39,664 basehttp 124 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-02-13 20:02:39,667 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-02-13 20:02:39,668 basehttp 124 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-02-13 20:02:39,669 basehttp 124 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-02-13 20:02:39,670 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-02-13 20:02:39,670 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+INFO 2019-02-13 20:02:39,692 basehttp 124 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-02-13 20:02:39,696 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 200 3570
+INFO 2019-02-13 20:02:39,699 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-02-13 20:02:39,715 basehttp 124 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-02-13 20:02:39,716 basehttp 124 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-02-13 20:02:39,742 basehttp 124 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-02-13 20:02:39,758 basehttp 124 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-02-13 20:02:39,759 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+INFO 2019-02-13 20:02:39,877 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 200 24527
+WARNING 2019-02-13 20:02:42,329 log 228 Not Found: /favicon.ico
+WARNING 2019-02-13 20:02:42,330 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3553
+INFO 2019-02-14 13:45:25,648 basehttp 124 "GET / HTTP/1.1" 200 16540
+WARNING 2019-02-14 13:45:26,018 log 228 Not Found: /favicon.ico
+WARNING 2019-02-14 13:45:26,021 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3553
+INFO 2019-02-14 13:46:16,960 basehttp 124 "GET /course/ HTTP/1.1" 200 4321
+INFO 2019-02-14 13:46:16,982 basehttp 124 "GET /static/css/course/course.css HTTP/1.1" 200 1916
+INFO 2019-02-14 13:46:17,333 basehttp 124 "GET /doc/ HTTP/1.1" 200 7733
+INFO 2019-02-14 13:46:17,346 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 200 2121
+INFO 2019-02-14 13:46:18,048 basehttp 124 "GET /search/ HTTP/1.1" 200 11100
+INFO 2019-02-14 13:46:18,076 basehttp 124 "GET /static/css/news/search.css HTTP/1.1" 200 2803
+INFO 2019-02-14 13:46:18,092 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 223
+INFO 2019-02-14 19:15:53,293 basehttp 124 "GET / HTTP/1.1" 200 16540
+WARNING 2019-02-14 19:15:53,540 log 228 Not Found: /favicon.ico
+WARNING 2019-02-14 19:15:53,542 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3553
+INFO 2019-02-14 19:16:32,956 basehttp 124 "GET /search/ HTTP/1.1" 200 11100
+INFO 2019-02-14 19:16:35,203 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-14 20:25:10,286 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-02-14 20:25:10,410 basehttp 124 "GET /static/css/authPro/auth.css HTTP/1.1" 200 3286
+INFO 2019-02-14 20:25:10,419 basehttp 124 "GET /static/js/users/login.js HTTP/1.1" 200 3776
+WARNING 2019-02-14 20:25:12,102 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:25:12,103 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+WARNING 2019-02-14 20:25:14,287 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:25:14,288 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+INFO 2019-02-14 20:25:16,657 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+WARNING 2019-02-14 20:25:18,150 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:25:18,151 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+WARNING 2019-02-14 20:25:22,505 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:25:22,507 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+WARNING 2019-02-14 20:25:32,167 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:25:32,169 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+INFO 2019-02-14 20:27:06,192 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-14 20:27:07,369 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+WARNING 2019-02-14 20:27:09,605 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:27:09,606 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+WARNING 2019-02-14 20:29:03,902 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:29:03,904 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+WARNING 2019-02-14 20:29:12,605 log 228 Forbidden (CSRF cookie not set.): /users/login/
+WARNING 2019-02-14 20:29:12,606 basehttp 124 "POST /users/login/ HTTP/1.1" 403 2840
+INFO 2019-02-14 20:29:14,314 basehttp 124 "GET /users/register/ HTTP/1.1" 200 4785
+INFO 2019-02-14 20:29:14,332 basehttp 124 "GET /static/js/users/auth.js HTTP/1.1" 200 10738
+INFO 2019-02-14 20:29:14,562 views 61 Image code: ENCO
+INFO 2019-02-14 20:29:14,564 basehttp 124 "GET /image_codes/8bb4ebd3-a7ed-4d59-9318-db5aa26b6842/ HTTP/1.1" 200 3231
+INFO 2019-02-14 20:29:22,298 basehttp 124 "GET /usernames/18811112222/ HTTP/1.1" 200 77
+INFO 2019-02-14 20:29:42,872 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-02-14 20:29:49,785 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-02-14 20:29:51,193 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-02-14 20:29:54,441 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-02-14 20:29:56,823 basehttp 124 "GET /usernames/python/ HTTP/1.1" 200 72
+INFO 2019-02-14 20:30:11,031 basehttp 124 "GET /usernames/pyvip/ HTTP/1.1" 200 71
+INFO 2019-02-14 20:30:20,314 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-14 20:30:21,122 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-02-14 20:30:23,233 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-02-14 20:30:24,279 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-02-14 22:41:19,214 basehttp 124 "GET / HTTP/1.1" 200 16540
+WARNING 2019-02-14 22:41:19,441 log 228 Not Found: /favicon.ico
+WARNING 2019-02-14 22:41:19,443 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3722
+INFO 2019-02-14 22:41:20,937 basehttp 124 "GET /users/login/ HTTP/1.1" 200 4018
+INFO 2019-02-14 22:41:22,654 basehttp 124 "POST /users/login/ HTTP/1.1" 200 96
+INFO 2019-02-14 22:41:23,703 basehttp 124 "GET / HTTP/1.1" 200 16554
+INFO 2019-02-14 22:58:27,611 basehttp 124 "GET / HTTP/1.1" 200 16554
+ERROR 2019-02-14 22:58:36,525 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-02-14 22:58:36,531 basehttp 124 "GET /news/ HTTP/1.1" 500 55805
+ERROR 2019-02-14 23:01:44,533 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-02-14 23:01:44,542 basehttp 124 "GET /news/ HTTP/1.1" 500 55354
+ERROR 2019-02-14 23:03:37,925 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+INFO 2019-02-14 23:09:30,613 basehttp 124 "GET / HTTP/1.1" 200 16540
+ERROR 2019-02-14 23:11:28,924 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-02-14 23:11:28,942 basehttp 124 "GET /news/ HTTP/1.1" 500 57803
+ERROR 2019-02-14 23:11:35,103 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-02-14 23:11:35,117 basehttp 124 "GET /news/ HTTP/1.1" 500 56558
+ERROR 2019-02-14 23:18:59,238 log 228 Internal Server Error: /news/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view apps.news.views.NewsListView didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-02-14 23:18:59,248 basehttp 124 "GET /news/ HTTP/1.1" 500 55940
+INFO 2019-02-15 15:07:34,515 basehttp 124 "GET / HTTP/1.1" 200 16540
+WARNING 2019-02-15 15:07:36,366 log 228 Not Found: /favicon.ico
+WARNING 2019-02-15 15:07:36,367 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3722
+INFO 2019-02-15 15:37:19,187 basehttp 124 "GET /news/ HTTP/1.1" 200 3163
+INFO 2019-02-15 15:37:30,769 basehttp 124 "GET / HTTP/1.1" 200 16540
+INFO 2019-02-15 15:37:38,947 basehttp 124 "GET /news/ HTTP/1.1" 200 3163
+INFO 2019-02-15 16:03:41,088 basehttp 124 "GET /news/?tag_id=0&pagr=1 HTTP/1.1" 200 3163
+ERROR 2019-02-15 16:03:52,724 views 62 标签错误,
+invalid literal for int() with base 10: 'a'
+INFO 2019-02-15 16:03:52,742 basehttp 124 "GET /news/?tag_id=a&pagr=1 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:03,118 basehttp 124 "GET /news/?tag_id=0&pagr=2 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:13,315 basehttp 124 "GET /news/?tag_id=0&pagr=1 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:21,879 basehttp 124 "GET /news/?tag_id=0&pagr=2 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:29,055 basehttp 124 "GET /news/?tag_id=0&pagr=10 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:39,226 basehttp 124 "GET /news/?tag_id=0&pagr=100 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:04:57,811 basehttp 124 "GET /news/?tag_id=0&pagr=100 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:06:33,003 basehttp 124 "GET /news/?tag_id=0&pagr=178 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:07:50,559 basehttp 124 "GET /news/?tag_id=0&pagr=177 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:08:04,047 basehttp 124 "GET /news/?tag_id=0&pagr=0 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:08:10,124 basehttp 124 "GET /news/?tag_id=0&pagr=1 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:08:29,264 basehttp 124 "GET /news/?tag_id=0&pagr=1 HTTP/1.1" 200 3163
+INFO 2019-02-15 16:09:37,158 basehttp 124 "GET /news/ HTTP/1.1" 200 3163
+INFO 2019-02-15 16:10:06,413 basehttp 124 "GET /news/ HTTP/1.1" 200 3163
+ERROR 2019-02-15 16:10:49,221 views 62 标签错误,
+invalid literal for int() with base 10: 'a'
+INFO 2019-02-15 16:10:49,246 basehttp 124 "GET /news/?tag_id=a&page=2 HTTP/1.1" 200 3018
+ERROR 2019-02-15 16:11:11,024 views 62 标签错误,
+invalid literal for int() with base 10: 'a'
+INFO 2019-02-15 16:11:11,052 basehttp 124 "GET /news/?tag_id=a&page=178 HTTP/1.1" 200 2183
+ERROR 2019-02-15 16:13:13,136 views 62 标签错误,
+invalid literal for int() with base 10: 'a'
+INFO 2019-02-15 16:13:13,159 basehttp 124 "GET /news/?tag_id=a&page=1 HTTP/1.1" 200 6112
+ERROR 2019-02-15 16:13:24,127 views 62 标签错误,
+invalid literal for int() with base 10: 'a'
+INFO 2019-02-15 16:13:24,146 basehttp 124 "GET /news/?tag_id=a&page=89 HTTP/1.1" 200 4869
+INFO 2019-02-15 16:13:48,160 basehttp 124 "GET /news/?tag_id=0&page=89 HTTP/1.1" 200 2990
+INFO 2019-02-15 16:13:56,909 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+INFO 2019-02-15 16:14:05,623 basehttp 124 "GET /news/?tag_id=0&page=178 HTTP/1.1" 200 2183
+INFO 2019-02-15 16:28:33,037 basehttp 124 "GET / HTTP/1.1" 200 10655
+INFO 2019-02-15 16:28:33,060 basehttp 124 "GET /static/js/news/index.js HTTP/1.1" 200 5352
+INFO 2019-02-15 16:28:33,143 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:28:33,175 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,176 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,221 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:28:33,239 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,240 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,299 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:28:33,310 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,311 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,365 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:28:33,377 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,379 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,415 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:28:33,430 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,431 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,463 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:28:33,475 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,477 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,506 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:28:33,518 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,519 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,553 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:28:33,564 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,566 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,605 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:28:33,615 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,617 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,652 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:28:33,664 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,665 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,701 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:28:33,713 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,714 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,749 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:28:33,762 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,763 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,795 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:28:33,808 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:33,815 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+WARNING 2019-02-15 16:28:33,814 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:28:33,818 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:28:33,845 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:28:33,856 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:33,857 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:33,889 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:28:33,902 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:33,904 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:33,925 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:28:33,936 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:33,937 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:33,977 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:28:33,988 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:33,990 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,027 basehttp 124 "GET /news/?tag_id=0&page=18 HTTP/1.1" 200 3009
+WARNING 2019-02-15 16:28:34,037 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,039 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,072 basehttp 124 "GET /news/?tag_id=0&page=19 HTTP/1.1" 200 2903
+WARNING 2019-02-15 16:28:34,084 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,085 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,108 basehttp 124 "GET /news/?tag_id=0&page=20 HTTP/1.1" 200 2938
+WARNING 2019-02-15 16:28:34,118 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,119 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,155 basehttp 124 "GET /news/?tag_id=0&page=21 HTTP/1.1" 200 3019
+WARNING 2019-02-15 16:28:34,169 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,170 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,205 basehttp 124 "GET /news/?tag_id=0&page=22 HTTP/1.1" 200 2838
+WARNING 2019-02-15 16:28:34,217 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,219 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:34,242 basehttp 124 "GET /news/?tag_id=0&page=23 HTTP/1.1" 200 3000
+WARNING 2019-02-15 16:28:34,255 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:34,256 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:45,372 basehttp 124 "GET /news/?tag_id=0&page=24 HTTP/1.1" 200 2449
+WARNING 2019-02-15 16:28:45,385 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:45,386 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:28:45,489 basehttp 124 "GET /news/?tag_id=0&page=25 HTTP/1.1" 200 2668
+WARNING 2019-02-15 16:28:45,502 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:28:45,509 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:29:08,889 basehttp 124 "GET /news/?tag_id=0&page=26 HTTP/1.1" 200 2840
+WARNING 2019-02-15 16:29:08,903 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:29:08,905 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:29:55,768 basehttp 124 "GET /news/?tag_id=0&page=27 HTTP/1.1" 200 2742
+WARNING 2019-02-15 16:29:55,782 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:29:55,783 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:31:24,351 basehttp 124 "GET /news/?tag_id=0&page=28 HTTP/1.1" 200 3017
+WARNING 2019-02-15 16:31:24,363 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:31:24,365 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:31:24,393 basehttp 124 "GET /news/?tag_id=0&page=29 HTTP/1.1" 200 2830
+WARNING 2019-02-15 16:31:24,405 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:31:24,407 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:31:29,656 basehttp 124 "GET /news/?tag_id=6&page=1 HTTP/1.1" 200 3162
+WARNING 2019-02-15 16:31:29,677 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:31:29,678 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:31:30,801 basehttp 124 "GET /news/?tag_id=5&page=1 HTTP/1.1" 200 2978
+WARNING 2019-02-15 16:31:30,813 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:31:30,815 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:31:31,523 basehttp 124 "GET /news/?tag_id=4&page=1 HTTP/1.1" 200 3608
+WARNING 2019-02-15 16:31:31,535 log 228 Not Found: /media/python_gui.jpg
+WARNING 2019-02-15 16:31:31,536 basehttp 124 "GET /media/python_gui.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:31:32,263 basehttp 124 "GET /news/?tag_id=3&page=1 HTTP/1.1" 200 2825
+WARNING 2019-02-15 16:31:32,275 log 228 Not Found: /media/python_function.jpg
+WARNING 2019-02-15 16:31:32,277 basehttp 124 "GET /media/python_function.jpg HTTP/1.1" 404 1786
+INFO 2019-02-15 16:31:32,907 basehttp 124 "GET /news/?tag_id=2&page=1 HTTP/1.1" 200 3077
+WARNING 2019-02-15 16:31:32,917 log 228 Not Found: /media/python_advanced.jpg
+WARNING 2019-02-15 16:31:32,918 basehttp 124 "GET /media/python_advanced.jpg HTTP/1.1" 404 1786
+INFO 2019-02-15 16:31:33,553 basehttp 124 "GET /news/?tag_id=3&page=1 HTTP/1.1" 200 2825
+WARNING 2019-02-15 16:31:33,566 log 228 Not Found: /media/python_function.jpg
+WARNING 2019-02-15 16:31:33,567 basehttp 124 "GET /media/python_function.jpg HTTP/1.1" 404 1786
+INFO 2019-02-15 16:31:34,082 basehttp 124 "GET /news/?tag_id=4&page=1 HTTP/1.1" 200 3608
+WARNING 2019-02-15 16:31:34,093 log 228 Not Found: /media/python_gui.jpg
+WARNING 2019-02-15 16:31:34,094 basehttp 124 "GET /media/python_gui.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:31:34,626 basehttp 124 "GET /news/?tag_id=5&page=1 HTTP/1.1" 200 2978
+WARNING 2019-02-15 16:31:34,638 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:31:34,640 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:31:35,075 basehttp 124 "GET /news/?tag_id=4&page=1 HTTP/1.1" 200 3608
+WARNING 2019-02-15 16:31:35,086 log 228 Not Found: /media/python_gui.jpg
+WARNING 2019-02-15 16:31:35,087 basehttp 124 "GET /media/python_gui.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:31:36,523 basehttp 124 "GET /news/?tag_id=6&page=1 HTTP/1.1" 200 3162
+WARNING 2019-02-15 16:31:36,534 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:31:36,535 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:31:36,886 basehttp 124 "GET /news/?page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:31:36,898 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:31:36,899 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:32,014 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:37:32,094 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:37:32,105 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:32,106 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,628 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:37:38,638 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,640 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,681 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:37:38,694 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,695 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,732 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:37:38,745 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,747 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,783 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:37:38,800 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,802 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,830 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:37:38,842 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,843 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,879 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:37:38,890 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,891 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,929 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:37:38,942 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,944 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:38,979 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:37:38,990 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:38,991 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:39,029 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:37:39,041 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:39,042 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:39,078 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:37:39,088 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:39,089 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:39,129 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:37:39,139 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:39,142 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:39,178 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:37:39,190 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:39,197 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+WARNING 2019-02-15 16:37:39,195 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:39,199 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:39,228 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:37:39,237 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:39,238 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:39,278 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:37:39,289 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:39,291 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:39,331 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:37:39,344 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:39,345 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,160 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:37:41,171 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,172 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,198 basehttp 124 "GET /news/?tag_id=0&page=18 HTTP/1.1" 200 3009
+WARNING 2019-02-15 16:37:41,210 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,212 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,246 basehttp 124 "GET /news/?tag_id=0&page=19 HTTP/1.1" 200 2903
+WARNING 2019-02-15 16:37:41,256 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,257 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,296 basehttp 124 "GET /news/?tag_id=0&page=20 HTTP/1.1" 200 2938
+WARNING 2019-02-15 16:37:41,307 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,308 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,348 basehttp 124 "GET /news/?tag_id=0&page=21 HTTP/1.1" 200 3019
+WARNING 2019-02-15 16:37:41,362 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,365 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,388 basehttp 124 "GET /news/?tag_id=0&page=22 HTTP/1.1" 200 2838
+WARNING 2019-02-15 16:37:41,401 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,403 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:41,429 basehttp 124 "GET /news/?tag_id=0&page=23 HTTP/1.1" 200 3000
+WARNING 2019-02-15 16:37:41,441 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:41,442 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:44,717 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:37:44,788 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:37:44,801 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:44,803 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:44,830 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:37:44,843 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:44,845 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:44,882 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:37:44,911 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:44,914 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:44,933 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:37:44,945 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:44,947 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:44,971 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:37:44,982 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:44,984 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,017 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:37:45,031 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,033 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,057 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:37:45,067 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,070 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,111 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:37:45,121 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,124 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,167 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:37:45,180 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,184 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,207 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:37:45,221 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,223 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,254 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:37:45,267 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,268 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,302 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:37:45,318 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,319 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:45,341 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:37:45,357 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:45,361 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+WARNING 2019-02-15 16:37:45,364 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:45,365 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:45,401 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:37:45,418 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:45,421 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:45,443 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:37:45,454 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:45,457 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:45,499 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:37:45,512 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:45,513 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:45,549 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:37:45,562 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:45,563 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,058 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:37:50,124 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:37:50,135 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,136 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,165 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:37:50,175 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,176 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,214 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:37:50,226 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,227 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,263 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:37:50,277 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,279 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,304 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:37:50,318 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,319 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,348 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:37:50,362 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,364 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,395 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:37:50,408 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,409 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,448 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:37:50,460 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,461 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,491 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:37:50,503 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,504 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,533 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:37:50,545 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,548 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,570 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:37:50,581 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,582 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,607 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:37:50,617 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,619 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:37:50,649 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:37:50,670 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:37:50,679 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+WARNING 2019-02-15 16:37:50,678 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,682 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,700 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:37:50,710 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,712 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,735 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:37:50,749 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,750 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,781 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:37:50,795 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,797 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,832 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:37:50,845 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,847 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,869 basehttp 124 "GET /news/?tag_id=0&page=18 HTTP/1.1" 200 3009
+WARNING 2019-02-15 16:37:50,885 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,888 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,910 basehttp 124 "GET /news/?tag_id=0&page=19 HTTP/1.1" 200 2903
+WARNING 2019-02-15 16:37:50,920 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,922 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,949 basehttp 124 "GET /news/?tag_id=0&page=20 HTTP/1.1" 200 2938
+WARNING 2019-02-15 16:37:50,959 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:50,960 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:50,982 basehttp 124 "GET /news/?tag_id=0&page=21 HTTP/1.1" 200 3019
+WARNING 2019-02-15 16:37:50,998 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,009 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,033 basehttp 124 "GET /news/?tag_id=0&page=22 HTTP/1.1" 200 2838
+WARNING 2019-02-15 16:37:51,046 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,048 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,069 basehttp 124 "GET /news/?tag_id=0&page=23 HTTP/1.1" 200 3000
+WARNING 2019-02-15 16:37:51,079 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,080 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,113 basehttp 124 "GET /news/?tag_id=0&page=24 HTTP/1.1" 200 2449
+WARNING 2019-02-15 16:37:51,124 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,126 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,150 basehttp 124 "GET /news/?tag_id=0&page=25 HTTP/1.1" 200 2668
+WARNING 2019-02-15 16:37:51,163 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,165 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,200 basehttp 124 "GET /news/?tag_id=0&page=26 HTTP/1.1" 200 2840
+WARNING 2019-02-15 16:37:51,213 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,219 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,247 basehttp 124 "GET /news/?tag_id=0&page=27 HTTP/1.1" 200 2742
+WARNING 2019-02-15 16:37:51,258 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,260 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:37:51,280 basehttp 124 "GET /news/?tag_id=0&page=28 HTTP/1.1" 200 3017
+WARNING 2019-02-15 16:37:51,290 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:37:51,291 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:01,761 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:41:01,854 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:41:01,908 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:01,910 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:16,005 basehttp 124 "GET /news/?tag_id=6&page=1 HTTP/1.1" 200 3162
+WARNING 2019-02-15 16:41:16,015 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:16,016 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:17,248 basehttp 124 "GET /news/?tag_id=5&page=1 HTTP/1.1" 200 2978
+WARNING 2019-02-15 16:41:17,258 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:17,259 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:27,993 basehttp 124 "GET /news/ HTTP/1.1" 200 3163
+INFO 2019-02-15 16:41:37,384 basehttp 124 "GET /news/?tag_id=5&page=2 HTTP/1.1" 200 2763
+WARNING 2019-02-15 16:41:37,396 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:37,397 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:37,441 basehttp 124 "GET /news/?tag_id=5&page=3 HTTP/1.1" 200 2881
+WARNING 2019-02-15 16:41:37,454 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:37,456 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:37,517 basehttp 124 "GET /news/?tag_id=5&page=4 HTTP/1.1" 200 2800
+WARNING 2019-02-15 16:41:37,529 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:37,530 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:37,598 basehttp 124 "GET /news/?tag_id=5&page=5 HTTP/1.1" 200 2963
+WARNING 2019-02-15 16:41:37,611 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:37,613 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:37,675 basehttp 124 "GET /news/?tag_id=5&page=6 HTTP/1.1" 200 2843
+WARNING 2019-02-15 16:41:37,691 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:37,693 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:40,675 basehttp 124 "GET /news/?tag_id=5&page=7 HTTP/1.1" 200 2991
+WARNING 2019-02-15 16:41:40,688 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:40,689 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:40,738 basehttp 124 "GET /news/?tag_id=5&page=8 HTTP/1.1" 200 2964
+WARNING 2019-02-15 16:41:40,756 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:40,759 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:40,806 basehttp 124 "GET /news/?tag_id=5&page=9 HTTP/1.1" 200 2937
+WARNING 2019-02-15 16:41:40,821 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:40,825 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:40,879 basehttp 124 "GET /news/?tag_id=5&page=10 HTTP/1.1" 200 2931
+WARNING 2019-02-15 16:41:40,895 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:40,897 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:40,966 basehttp 124 "GET /news/?tag_id=5&page=11 HTTP/1.1" 200 2696
+WARNING 2019-02-15 16:41:40,992 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:40,993 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,047 basehttp 124 "GET /news/?tag_id=5&page=12 HTTP/1.1" 200 2600
+WARNING 2019-02-15 16:41:41,061 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,062 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,126 basehttp 124 "GET /news/?tag_id=5&page=13 HTTP/1.1" 200 2751
+WARNING 2019-02-15 16:41:41,142 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,144 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,192 basehttp 124 "GET /news/?tag_id=5&page=14 HTTP/1.1" 200 2729
+WARNING 2019-02-15 16:41:41,206 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,209 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,262 basehttp 124 "GET /news/?tag_id=5&page=15 HTTP/1.1" 200 2877
+WARNING 2019-02-15 16:41:41,275 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,276 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,346 basehttp 124 "GET /news/?tag_id=5&page=16 HTTP/1.1" 200 3035
+WARNING 2019-02-15 16:41:41,360 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,361 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,429 basehttp 124 "GET /news/?tag_id=5&page=17 HTTP/1.1" 200 2802
+WARNING 2019-02-15 16:41:41,444 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,445 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,515 basehttp 124 "GET /news/?tag_id=5&page=18 HTTP/1.1" 200 2870
+WARNING 2019-02-15 16:41:41,527 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,528 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,592 basehttp 124 "GET /news/?tag_id=5&page=19 HTTP/1.1" 200 2755
+WARNING 2019-02-15 16:41:41,609 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,611 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,668 basehttp 124 "GET /news/?tag_id=5&page=20 HTTP/1.1" 200 2706
+WARNING 2019-02-15 16:41:41,680 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,683 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,746 basehttp 124 "GET /news/?tag_id=5&page=21 HTTP/1.1" 200 2845
+WARNING 2019-02-15 16:41:41,760 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,761 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,816 basehttp 124 "GET /news/?tag_id=5&page=22 HTTP/1.1" 200 2845
+WARNING 2019-02-15 16:41:41,828 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,829 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,889 basehttp 124 "GET /news/?tag_id=5&page=23 HTTP/1.1" 200 2875
+WARNING 2019-02-15 16:41:41,901 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,902 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:41,948 basehttp 124 "GET /news/?tag_id=5&page=24 HTTP/1.1" 200 2872
+WARNING 2019-02-15 16:41:41,959 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:41,961 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,013 basehttp 124 "GET /news/?tag_id=5&page=25 HTTP/1.1" 200 2825
+WARNING 2019-02-15 16:41:42,025 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,029 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,064 basehttp 124 "GET /news/?tag_id=5&page=26 HTTP/1.1" 200 2952
+WARNING 2019-02-15 16:41:42,075 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,076 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,142 basehttp 124 "GET /news/?tag_id=5&page=27 HTTP/1.1" 200 3010
+WARNING 2019-02-15 16:41:42,152 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,154 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,200 basehttp 124 "GET /news/?tag_id=5&page=28 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:41:42,212 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,213 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,266 basehttp 124 "GET /news/?tag_id=5&page=29 HTTP/1.1" 200 2644
+WARNING 2019-02-15 16:41:42,276 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,277 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,325 basehttp 124 "GET /news/?tag_id=5&page=30 HTTP/1.1" 200 2868
+WARNING 2019-02-15 16:41:42,337 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,339 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,373 basehttp 124 "GET /news/?tag_id=5&page=31 HTTP/1.1" 200 2931
+WARNING 2019-02-15 16:41:42,384 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,385 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,421 basehttp 124 "GET /news/?tag_id=5&page=32 HTTP/1.1" 200 2765
+WARNING 2019-02-15 16:41:42,431 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,433 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,470 basehttp 124 "GET /news/?tag_id=5&page=33 HTTP/1.1" 200 2803
+WARNING 2019-02-15 16:41:42,483 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,484 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,521 basehttp 124 "GET /news/?tag_id=5&page=34 HTTP/1.1" 200 2694
+WARNING 2019-02-15 16:41:42,533 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,534 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,573 basehttp 124 "GET /news/?tag_id=5&page=35 HTTP/1.1" 200 2761
+WARNING 2019-02-15 16:41:42,584 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,585 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,631 basehttp 124 "GET /news/?tag_id=5&page=36 HTTP/1.1" 200 3130
+WARNING 2019-02-15 16:41:42,643 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,644 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,689 basehttp 124 "GET /news/?tag_id=5&page=37 HTTP/1.1" 200 2952
+WARNING 2019-02-15 16:41:42,706 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,709 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,757 basehttp 124 "GET /news/?tag_id=5&page=38 HTTP/1.1" 200 2836
+WARNING 2019-02-15 16:41:42,770 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,774 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,819 basehttp 124 "GET /news/?tag_id=5&page=39 HTTP/1.1" 200 2682
+WARNING 2019-02-15 16:41:42,830 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,831 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:42,884 basehttp 124 "GET /news/?tag_id=5&page=40 HTTP/1.1" 200 1885
+WARNING 2019-02-15 16:41:42,900 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:42,902 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:47,342 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:41:47,419 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:41:47,431 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,433 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,473 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:41:47,486 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,487 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,519 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:41:47,531 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,532 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,570 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:41:47,581 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,582 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,607 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:41:47,619 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,621 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,645 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:41:47,658 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,659 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,691 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:41:47,703 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,704 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,736 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:41:47,747 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,748 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,785 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:41:47,796 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,798 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,829 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:41:47,841 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,843 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,876 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:41:47,888 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,889 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,909 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:41:47,921 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,922 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:47,944 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:41:47,955 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:47,956 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+WARNING 2019-02-15 16:41:47,967 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:47,973 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:47,984 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:41:47,994 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:47,996 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:48,039 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:41:48,050 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:48,051 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:48,085 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:41:48,095 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:48,101 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:48,126 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:41:48,138 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:48,140 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:48,173 basehttp 124 "GET /news/?tag_id=0&page=18 HTTP/1.1" 200 3009
+WARNING 2019-02-15 16:41:48,184 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:48,186 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:48,208 basehttp 124 "GET /news/?tag_id=0&page=19 HTTP/1.1" 200 2903
+WARNING 2019-02-15 16:41:48,221 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:48,223 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:41:51,157 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:41:51,233 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:41:51,245 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,246 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,275 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:41:51,291 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,292 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,315 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:41:51,326 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,327 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,356 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:41:51,368 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,369 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,392 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:41:51,406 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,408 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,430 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:41:51,443 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,444 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,475 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:41:51,486 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,488 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,512 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:41:51,524 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,525 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,554 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:41:51,564 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,565 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,590 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:41:51,600 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,603 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,628 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:41:51,641 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,642 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,687 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:41:51,698 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,700 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:51,737 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:41:51,749 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:41:51,754 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+WARNING 2019-02-15 16:41:51,753 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:51,757 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:41:55,518 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:41:55,600 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:41:55,613 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:41:55,616 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,223 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:42:05,238 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,239 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,263 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:42:05,275 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,277 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,304 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:42:05,315 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,316 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,352 basehttp 124 "GET /news/?tag_id=0&page=5 HTTP/1.1" 200 2795
+WARNING 2019-02-15 16:42:05,362 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,363 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,402 basehttp 124 "GET /news/?tag_id=0&page=6 HTTP/1.1" 200 2462
+WARNING 2019-02-15 16:42:05,412 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,413 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,455 basehttp 124 "GET /news/?tag_id=0&page=7 HTTP/1.1" 200 2708
+WARNING 2019-02-15 16:42:05,466 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,468 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,506 basehttp 124 "GET /news/?tag_id=0&page=8 HTTP/1.1" 200 2857
+WARNING 2019-02-15 16:42:05,520 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,522 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,556 basehttp 124 "GET /news/?tag_id=0&page=9 HTTP/1.1" 200 2812
+WARNING 2019-02-15 16:42:05,566 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,567 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,600 basehttp 124 "GET /news/?tag_id=0&page=10 HTTP/1.1" 200 2884
+WARNING 2019-02-15 16:42:05,610 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,611 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,654 basehttp 124 "GET /news/?tag_id=0&page=11 HTTP/1.1" 200 2907
+WARNING 2019-02-15 16:42:05,666 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,667 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,706 basehttp 124 "GET /news/?tag_id=0&page=12 HTTP/1.1" 200 2710
+WARNING 2019-02-15 16:42:05,718 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,720 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:42:05,753 basehttp 124 "GET /news/?tag_id=0&page=13 HTTP/1.1" 200 3064
+WARNING 2019-02-15 16:42:05,765 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:05,772 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+WARNING 2019-02-15 16:42:05,771 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:05,775 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:05,809 basehttp 124 "GET /news/?tag_id=0&page=14 HTTP/1.1" 200 2654
+WARNING 2019-02-15 16:42:05,820 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:05,822 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:05,857 basehttp 124 "GET /news/?tag_id=0&page=15 HTTP/1.1" 200 2735
+WARNING 2019-02-15 16:42:05,869 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:05,872 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:05,903 basehttp 124 "GET /news/?tag_id=0&page=16 HTTP/1.1" 200 2859
+WARNING 2019-02-15 16:42:05,914 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:05,915 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:05,953 basehttp 124 "GET /news/?tag_id=0&page=17 HTTP/1.1" 200 2905
+WARNING 2019-02-15 16:42:05,962 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:05,963 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:05,988 basehttp 124 "GET /news/?tag_id=0&page=18 HTTP/1.1" 200 3009
+WARNING 2019-02-15 16:42:05,999 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:06,002 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:06,035 basehttp 124 "GET /news/?tag_id=0&page=19 HTTP/1.1" 200 2903
+WARNING 2019-02-15 16:42:06,046 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:06,048 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:06,086 basehttp 124 "GET /news/?tag_id=0&page=20 HTTP/1.1" 200 2938
+WARNING 2019-02-15 16:42:06,098 log 228 Not Found: /media/linux.jpg
+WARNING 2019-02-15 16:42:06,099 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 404 1756
+INFO 2019-02-15 16:42:26,419 basehttp 124 "GET / HTTP/1.1" 200 16601
+INFO 2019-02-15 16:42:26,489 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:42:26,502 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:42:26,505 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:43:50,253 basehttp 124 "GET / HTTP/1.1" 200 16596
+INFO 2019-02-15 16:43:50,457 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:43:50,482 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:43:50,483 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:44:24,875 basehttp 124 "GET / HTTP/1.1" 200 16584
+INFO 2019-02-15 16:44:24,945 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:44:24,958 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:44:24,960 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:52:17,559 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:52:17,633 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:52:17,648 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:52:17,649 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:52:53,491 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:52:53,552 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:52:53,569 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:52:53,570 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:52:55,201 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:52:55,220 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:52:55,221 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:52:56,833 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+WARNING 2019-02-15 16:52:56,850 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:52:56,851 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:52:57,817 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+WARNING 2019-02-15 16:52:57,829 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:52:57,830 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:53:02,782 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:53:02,844 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:53:02,860 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:53:02,861 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:53:04,815 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+WARNING 2019-02-15 16:53:04,827 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:53:04,828 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:53:07,662 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:53:07,734 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:53:07,747 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:53:07,748 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:54:48,870 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:54:48,938 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:54:48,950 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:54:48,952 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:54:59,897 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:54:59,958 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:54:59,974 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:54:59,977 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 16:57:12,329 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:57:12,403 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:57:12,415 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:57:12,417 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1777
+INFO 2019-02-15 16:58:59,797 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 16:58:59,860 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+WARNING 2019-02-15 16:58:59,873 log 228 Not Found: /media/python_web.jpg
+WARNING 2019-02-15 16:58:59,874 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 404 1771
+INFO 2019-02-15 17:03:52,957 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 17:03:53,032 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163
+INFO 2019-02-15 17:03:53,051 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-02-15 17:04:21,687 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3018
+INFO 2019-02-15 17:04:25,582 basehttp 124 "GET /news/?tag_id=0&page=3 HTTP/1.1" 200 2923
+INFO 2019-02-15 17:04:27,688 basehttp 124 "GET /news/?tag_id=0&page=4 HTTP/1.1" 200 2778
+INFO 2019-02-15 17:04:31,260 basehttp 124 "GET / HTTP/1.1" 200 10969
+INFO 2019-02-15 17:04:31,323 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3163

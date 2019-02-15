@@ -35,12 +35,23 @@ class LoginView(View):
     def get(self,request):
         return render(request,'users/login.html')
     def post(self,request):
-        json_data = request.body
-        if not json_data:
-            return to_json_data(errno=Code.PARAMERR,errmsg=error_map[Code.PARAMERR])
+        """
+
+        :param request:
+        :return:
+        """
+        try:
+            json_data = request.body
+            if not json_data:
+                return to_json_data(errno=Code.PARAMERR,errmsg=error_map[Code.PARAMERR])
         # 将json转化为dict
-        dict_data = json.loads(json_data.decode('utf-8')) # 没有解码，会产生bug
+            dict_data = json.loads(json_data.decode('utf-8')) # 没有解码，会产生bug
+        except Exception as e:
+            logger.info("错误信息，\n{}".format(e))
+        # 3、校验参数
         form = LoginForm(data=dict_data,request=request)
+
+        # 4、返回前端
         if form.is_valid():
             return to_json_data(errmsg="恭喜您，登录成功！")
         else:
@@ -83,9 +94,10 @@ class RegisterView(View):
         """处理POST请求，实现注册逻辑"""
 
         #     4、获取前端传过来的参数
+
         try:
             json_data = request.body
-            if not json_data:
+            if not json_data: # 判断参数是否合法
                 return to_json_data(errno=Code.PARAMERR, errmsg = error_map[Code.PARAMERR])
             dict_data = json.loads(json_data.decode('utf-8'))
         except Exception as e:
@@ -94,8 +106,9 @@ class RegisterView(View):
 
         # 将json 转化为dict
         # dict_data = json.loads(json_data.decode('utf-8'))
-        form = RegisterForm(data=dict_data)
 
+        # 3、校验参数
+        form = RegisterForm(data=dict_data)
         if form.is_valid():
             # 获取username password Mobile 关键参数
             username = form.cleaned_data.get("username")

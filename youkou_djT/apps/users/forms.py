@@ -1,11 +1,11 @@
 import re
 
 from django import forms
-from django.contrib.auth import login
+from django.contrib.auth import login,logout
 from django.db.models import Q
 from django_redis import get_redis_connection
 
-from apps.verifications import constants
+from . import constants
 from apps.verifications.constants import SMS_CODE_NUMS
 from .models import Users
 
@@ -103,10 +103,12 @@ class LoginForm(forms.Form):
 
 
         # 在form表单中实现登录逻辑
+        # 2、查询数据库，判断用户账号和密码是否正确
         user_queryset = Users.objects.filter(Q(mobile=user_info) | Q(username=user_info))
         if user_queryset:
             user = user_queryset.first()
             if user.check_password(passwd):
+                # 3、是否将用户信息设置到会话中
                 if hold_login: # redis中保存session信息
                     self.request.session.set_expiry(constants.USER_SESSION_EXPIRES)
                 else:
