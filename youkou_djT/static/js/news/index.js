@@ -6,12 +6,12 @@ $(function () {
   let sCurrentTagId = 0; //默认分类标签为0
   let bIsLoadData = true;   // 是否正在向后台加载数据
 
-
+  // 加载新闻列表信息
   fn_load_content();
 
   $newsLi.click(function () {
     // 点击分类标签，则为点击的标签加上一个class属性为active
-    // 并移除其它兄弟元素的上的，值为active的class属性
+    // 并移除其它兄弟元素上的，值为active的class属性
     $(this).addClass('active').siblings('li').removeClass('active');
     // 获取绑定在当前选中分类上的data-id属性值
     let sClickTagId = $(this).children('a').attr('data-id');
@@ -53,12 +53,11 @@ $(function () {
           message.showInfo('已全部加载，没有更多内容！');
           $(".btn-more").remove();  // 删除标签
           $(".news-list").append($('<a href="javascript:void(0);" class="btn-more">已全部加载，没有更多内容！</a>'))
+
         }
       }
     }
   });
-
-
   // 定义向后端获取新闻列表数据的请求
   function fn_load_content() {
     // let sCurrentTagId = $('.active a').attr('data-id');
@@ -85,23 +84,6 @@ $(function () {
           if (iPage === 1) {
             $(".news-list").html("")
           }
-
-          // 显示新闻
-          // for (let i = 0; i < res.data.news.length; i++) {
-          //   let one_news = res.data.news[i];
-          //   let content = '<li class="news-item">';
-          //   content += '<a href="' + one_news.image_url + '" class="news-thumbnail" target="_blank">' +
-          //     '<img src="' + one_news.image_url + '" alt="' + one_news.title + '" title="' + one_news.title + '"></a>';
-          //   content += '<div class="news-content">' +
-          //     '<h4 class="news-title"><a href="#">' + one_news.title + '</a></h4>' +
-          //     '<p class="news-details">' + one_news.digest + '</p>';
-          //   content += '<div class="news-other">' +
-          //     '<span class="news-type">' + one_news.tag_name + '</span>' +
-          //     '<span class="news-time">' + one_news.update_time + '</span>' +
-          //     '<span class="news-author">' + one_news.author + '</span></div></div></li>';
-          //
-          //   $(".news-list").append(content)
-          // }
 
           res.data.news.forEach(function (one_news) {
             let content = `
@@ -135,5 +117,4 @@ $(function () {
         message.showError('服务器超时，请重试！');
       });
   }
-
 });

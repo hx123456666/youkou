@@ -8,4 +8,5 @@ urlpatterns = [
     path('',views.IndexView.as_view(),name='index'),
     path('search/',views.SerchView.as_view(),name='search'),
     path('news/',views.NewsListView.as_view(),name='news_list'),
+    path('news/banners/',views.NewsBanner.as_view(),name='news_banner'),
 ]

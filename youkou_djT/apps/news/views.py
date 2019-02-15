@@ -27,17 +27,6 @@ class IndexView(View):
 
         return render(request, 'news/index.html', locals())
 
-
-
-
-
-
-def serch(request):
-    return render(request, 'news/search.html')
-
-
-
-
 '''
 1、创建类视图
 2、校验参数
@@ -105,6 +94,35 @@ class NewsListView(View):
         data = {
             'total_pages':paginator.num_pages,
             'news': news_info_list
+        }
+
+        return to_json_data(data=data)
+
+
+
+
+'''
+1、创建类视图
+2、
+'''
+class NewsBanner(View):
+    """
+
+    """
+    def get(self, request):
+        banners = models.Banner.objects.select_related('news').only('image_url', 'news__id', 'news__title'). \
+            filter(is_delete=False)[0:constants.SHOW_BANNER_COUNT]
+        # 序列化输出
+        banners_info_list = []
+        for b in banners:
+            banners_info_list.append({
+                'image_url': b.image_url,
+                'news_id': b.news.id,
+                'news_title': b.news.title,
+            })
+            # 创建返回给前端的数据
+        data = {
+            'banners': banners_info_list
         }
 
         return to_json_data(data=data)
