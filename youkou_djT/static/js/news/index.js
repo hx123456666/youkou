@@ -58,6 +58,7 @@ $(function () {
       }
     }
   });
+
   // 定义向后端获取新闻列表数据的请求
   function fn_load_content() {
     // let sCurrentTagId = $('.active a').attr('data-id');
@@ -117,4 +118,5 @@ $(function () {
         message.showError('服务器超时，请重试！');
       });
   }
+
 });

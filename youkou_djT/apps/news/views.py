@@ -107,11 +107,13 @@ class NewsListView(View):
 '''
 class NewsBanner(View):
     """
-
+    creat news banners view
+    route: /news/banners/
     """
     def get(self, request):
         banners = models.Banner.objects.select_related('news').only('image_url', 'news__id', 'news__title'). \
             filter(is_delete=False)[0:constants.SHOW_BANNER_COUNT]
+        
         # 序列化输出
         banners_info_list = []
         for b in banners:

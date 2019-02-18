@@ -1,6 +1,8 @@
+
 from django.db import models
 from utils.models import ModelBase
 
+from . import constants
 # Create your models here.
 
 class News(ModelBase):
@@ -89,7 +91,7 @@ class Banner(ModelBase):
 
     """
     image_url = models.URLField(verbose_name='轮播图url',help_text='轮播图url')
-    priority = models.IntegerField(verbose_name="优先级", help_text="优先级")
+    priority = models.IntegerField(choices=constants.PRI_CHOICES, default=6,verbose_name="优先级", help_text="优先级")
     news = models.OneToOneField('News', on_delete=models.CASCADE)
 
 
