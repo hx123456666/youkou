@@ -7,7 +7,7 @@ from . import constants
 
 class News(ModelBase):
     """
-
+    creat news model
     """
     title = models.CharField(max_length=150, verbose_name="标题", help_text="标题")
     digest = models.CharField(max_length=200, verbose_name="摘要", help_text="摘要")
@@ -33,7 +33,7 @@ class News(ModelBase):
 
 class Tag(ModelBase):
     """
-
+    creat Tag model
     """
     name = models.CharField(max_length=64,verbose_name="标签名", help_text="标签名")
 
@@ -50,12 +50,13 @@ class Tag(ModelBase):
 
 class Comments(ModelBase):
     """
-
+    creat Comments model
     """
     content = models.TextField(verbose_name="内容", help_text="内容")
 
     author = models.ForeignKey('users.Users',on_delete=models.SET_NULL, null=True)
     news = models.ForeignKey('News',on_delete=models.CASCADE)
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
         ordering = ['-update_time', '-id']
@@ -71,10 +72,15 @@ class Comments(ModelBase):
 
 class HotNews(ModelBase):
     """
-
+    creat hot news model
     """
+    PRI_CHOICES = [
+        (1, '第一级'),
+        (2, '第二级'),
+        (3, '第三级'),
+    ]
     news = models.ForeignKey('News',on_delete=models.CASCADE)
-    priority = models.IntegerField(verbose_name="优先级", help_text="优先级")
+    priority = models.IntegerField(choices=PRI_CHOICES, verbose_name="优先级", help_text="优先级")
 
     class Meta:
         ordering = ['-update_time', '-id']
@@ -88,7 +94,7 @@ class HotNews(ModelBase):
 
 class Banner(ModelBase):
     """
-
+    creat Banner model
     """
     image_url = models.URLField(verbose_name='轮播图url',help_text='轮播图url')
     priority = models.IntegerField(choices=constants.PRI_CHOICES, default=6,verbose_name="优先级", help_text="优先级")

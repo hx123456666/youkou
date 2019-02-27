@@ -9,4 +9,6 @@ urlpatterns = [
     path('search/',views.SerchView.as_view(),name='search'),
     path('news/',views.NewsListView.as_view(),name='news_list'),
     path('news/banners/',views.NewsBanner.as_view(),name='news_banner'),
+    path('news/<int:news_id>/', views.NewsDetailView.as_view(), name='news_detail'),
+    path('news/news_detail/', views.TestView.as_view(), name='news_detail_test'),
 ]

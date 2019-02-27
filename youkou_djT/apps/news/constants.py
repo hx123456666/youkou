@@ -13,3 +13,6 @@ PRI_CHOICES = [
     (5,'第五级'),
     (6,'第六级'),
 ]
+
+# 显示热门新闻条数
+SHOW_HOTNEWS_COUNT = 3

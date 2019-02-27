@@ -1,6 +1,7 @@
 import logging
 
 from django.core.paginator import Paginator, EmptyPage
+from django.http import Http404, HttpResponseNotFound
 from django.shortcuts import render
 from django.views import View
 
@@ -24,6 +25,7 @@ class IndexView(View):
         :return:
         """
         tags = models.Tag.objects.only('id', 'name').filter(is_delete=False)
+        hot_news = models.HotNews.objects.select_related('news').only('news__title', 'news__image_url',).filter(is_delete=False).order_by('priority', '-news__clicks')[0:constants.SHOW_HOTNEWS_COUNT]
 
         return render(request, 'news/index.html', locals())
 
@@ -112,8 +114,8 @@ class NewsBanner(View):
     """
     def get(self, request):
         banners = models.Banner.objects.select_related('news').only('image_url', 'news__id', 'news__title'). \
-            filter(is_delete=False)[0:constants.SHOW_BANNER_COUNT]
-        
+            filter(is_delete=False).order_by('priority','-update_time', '-id')[0:constants.SHOW_BANNER_COUNT]
+
         # 序列化输出
         banners_info_list = []
         for b in banners:
@@ -138,3 +140,27 @@ class SerchView(View):
         :return:
         """
         return render(request, 'news/search.html')
+
+
+class NewsDetailView(View):
+    """
+
+    """
+    def get(self, request, news_id):
+
+        news = models.News.objects.select_related('tag', 'author').only('title', 'content', 'update_time', 'tag__name', 'author__username').filter(is_delete=False, id=news_id).first()
+
+        if news:
+            return render(request,'news/news_detail.html', locals())
+        else:
+            raise Http404("<新闻{}>不存在".format(news_id))
+            # return HttpResponseNotFound('<h1>Page not found</h1>')
+
+
+
+class TestView(View):
+    """
+
+    """
+    def get(self,request):
+        return render(request,'news/news_detail.html',locals())

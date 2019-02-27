@@ -34,33 +34,18 @@
       <div class="content">
         <!-- recommend-news start -->
           <ul class="recommend-news">
+            {% for n in hot_news %}
               <li>
-                  <a href="https://www.shiguangkey.com/course/2432" target="_blank">
+                  <a href="#" target="_blank">
                       <div class="recommend-thumbnail">
-                          <img src="../../static/images/python_gui.jpg" alt="title">
+                          <img src="{{ n.news.image_url }}" alt="title">
                       </div>
-                      <p class="info">Python GUI 教程 25行代码写一个小闹钟</p>
+                        <p class="info">{{ n.news.title }}</p>
                   </a>
               </li>
-
-              <li>
-                  <a href="https://www.shiguangkey.com/course/2432" target="_blank">
-                      <div class="recommend-thumbnail">
-                          <img src="../../static/images/python_advanced.jpg" alt="title">
-                      </div>
-                      <p class="info">python高性能编程方法一</p>
-                  </a>
-              </li>
-
-              <li>
-                  <a href="https://www.shiguangkey.com/course/2432" target="_blank">
-                      <div class="recommend-thumbnail">
-                          <img src="../../static/images/jichujiaochen.jpeg" alt="title">
-                      </div>
-                      <p class="info">python基础 split 和 join函数比较</p>
-                  </a>
-              </li>
+            {% endfor %}
           </ul>
+
         <!-- recommend-news end -->
 
         <!--  news-nav start-->
