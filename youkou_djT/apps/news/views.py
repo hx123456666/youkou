@@ -1,9 +1,11 @@
 import logging
+import json
 
 from django.core.paginator import Paginator, EmptyPage
 from django.http import Http404, HttpResponseNotFound
 from django.shortcuts import render
 from django.views import View
+# from django_redis.serializers import json
 
 from . import constants
 from utils.json_fun import to_json_data
@@ -84,6 +86,7 @@ class NewsListView(View):
         news_info_list = []
         for n in news_info:
             news_info_list.append({
+                'id': n.id,
                 'title': n.title,
                 'digest': n.digest,
                 'image_url': n.image_url,
@@ -151,16 +154,111 @@ class NewsDetailView(View):
         news = models.News.objects.select_related('tag', 'author').only('title', 'content', 'update_time', 'tag__name', 'author__username').filter(is_delete=False, id=news_id).first()
 
         if news:
+            comments = models.Comments.objects.select_related('author', 'parent').only('content', 'author__username', 'update_time', 'parent__author__username', 'parent__content').filter(is_delete=False, news_id=news_id)
+            # 序列化输出
+            comments_list = []
+            for comm in comments:
+                comments_list.append(comm.to_dict_data())
             return render(request,'news/news_detail.html', locals())
         else:
             raise Http404("<新闻{}>不存在".format(news_id))
             # return HttpResponseNotFound('<h1>Page not found</h1>')
+            # return render(request, '404.html')
 
 
 
-class TestView(View):
+# 加一个装饰器或者继承一个拓展类,以判断用户是否登录情况
+# method_decologin_required
+# 或者class NewsCommentView(LoginRequiredMinxin, View):
+class NewsCommentView(View):
     """
+    create new comment view
+    route: '/news/<int:news_id>/comments/'
 
     """
-    def get(self,request):
-        return render(request,'news/news_detail.html',locals())
+    def post(self, request, news_id):
+        if not request.user.is_authenticated:
+            return to_json_data(errno=Code.SESSIONERR, errmsg=error_map[Code.SESSIONERR])
+        if not models.News.objects.only('id').filter(is_delete=False,id=news_id).exists():
+            return to_json_data(errno=Code.PARAMERR, errmsg="新闻不存在！")
+        try:
+            json_data = request.body
+            if not json_data:
+                return to_json_data(errno=Code.PARAMERR, errmsg="参数为空，请重新输入")
+            dict_data = json.loads(json_data.decode("utf8"))
+        except Exception as e:
+            logger.info("错误信息: \n{}".format(e))
+            return to_json_data(errno=Code.UNKOWNERR, errmsg=error_map[Code.UNKOWNERR])
+
+        content = dict_data.get('content')
+        if not content:
+            return to_json_data(errno=Code.PARAMERR, errmsg="评论内容为空！")
+
+
+        parent_id = dict_data.get('parent_id')
+        try:
+            if parent_id:
+                parent_id = int(parent_id)
+                if not models.Comments.objects.only('id').filter(is_delete=False,id=parent_id,news_id=news_id).exists():
+                    return to_json_data(errno=Code.PARAMERR, errmsg=error_map[Code.PARAMERR])
+
+        except Exception as e:
+            logger.info("前端传过来的parent_id异常：\n{}".format(e))
+            return to_json_data(errno=Code.PARAMERR, errmsg="未知异常")
+
+        # 保存到数据库
+        news_comment = models.Comments()
+        news_comment.content = content
+        news_comment.news_id = news_id
+        news_comment.author = request.user
+        news_comment.parent_id = parent_id if parent_id else None
+        news_comment.save()
+
+        return to_json_data(data=news_comment.to_dict_data())
+
+    # def post(self, request, news_id):
+    #
+    #
+    #     if not request.user.is_authenticated:
+    #         return to_json_data(errno=Code.SESSIONERR, errmsg=error_map[Code.SESSIONERR])
+    #     if not models.News.objects.only('id').filter(is_delete=False, id=news_id).exists():
+    #         return to_json_data(errno=Code.PARAMERR, errmsg="新闻不存在！")
+    #
+    #
+    #
+    #     # 从前端获取参数
+    #     json_data = request.body
+    #     if not json_data:
+    #         return to_json_data(errno=Code.PARAMERR, errmsg=error_map[Code.PARAMERR])
+    #
+    #
+    #     # 将json转化为dict
+    #     dict_data = json.loads(json_data.decode('utf-8'))
+    #
+    #     content = dict_data.get('content')
+    #     if not content:
+    #         return to_json_data(errno=Code.PARAMERR, errmsg="评论内容不能为空！")
+    #     parent_id = dict_data.get('parent_id')
+    #
+    #     try:
+    #         if parent_id:
+    #             parent_id = int(parent_id)
+    #             if not models.Comments.objects.only('id').filter(is_delete=False, id=parent_id, news_id=news_id).exists():
+    #                 return to_json_data(errno=Code.PARAMERR, errmsg=error_map[Code.PARAMERR])
+    #
+    #
+    #     except Exception as e:
+    #         logging.info("前端传过来的parent_id异常：\n{}".format(e))
+    #         return to_json_data(errno=Code.PARAMERR, errmsg="未知异常")
+    #
+    #
+    #     # 保存到数据库
+    #     news_comment = models.Comments()
+    #     news_comment.content = content
+    #     news_comment.news_id=news_id
+    #     news_comment.author = request.user
+    #     news_comment.parent_id = parent_id if parent_id else None
+    #     news_comment.save()
+    #
+    #     return to_json_data(data=news_comment.to_dict_data())
+

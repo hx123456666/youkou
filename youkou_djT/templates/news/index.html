@@ -36,7 +36,7 @@
           <ul class="recommend-news">
             {% for n in hot_news %}
               <li>
-                  <a href="#" target="_blank">
+                  <a href="news/{{ n.id }}" target="_blank">
                       <div class="recommend-thumbnail">
                           <img src="{{ n.news.image_url }}" alt="title">
                       </div>
@@ -80,7 +80,6 @@
 <!-- main-contain  end -->
 
 {% block script %}
-  <script src="../../static/js/index.js"></script>
   <script src="{% static 'js/news/index.js' %}"></script>
   <script src="{% static 'js/news/banners.js' %}"></script>
 {% endblock %}

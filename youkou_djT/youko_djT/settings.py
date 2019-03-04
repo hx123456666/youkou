@@ -57,6 +57,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # 'apps.users.middleware.my_middleware1',
+    # 'apps.users.middleware.my_middleware2',
+    # 'apps.users.middleware.MyMiddleware1',
+    # 'apps.users.middleware.MyMiddleware2',
+
+
 ]
 
 ROOT_URLCONF = 'youko_djT.urls'

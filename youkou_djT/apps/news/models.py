@@ -67,6 +67,19 @@ class Comments(ModelBase):
     def __str__(self):
         return '<评论{}>'.format(self.id)
 
+    def to_dict_data(self):
+
+        comment_dict = {
+            'news_id': self.news.id,
+            'content_id': self.id,
+            'content': self.content,
+            'author': self.author.username,
+            'update_time': self.update_time.strftime('%Y年%m月%d日 %H:%M'),
+            'parent': self.parent.to_dict_data() if self.parent else None,
+        }
+
+        return comment_dict
+
 
 
 
