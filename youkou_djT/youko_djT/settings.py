@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'apps.doc',
     'apps.course',
     'apps.verifications',
+    'haystack',   # 配置 elasticsearch
 ]
 
 MIDDLEWARE = [
@@ -143,6 +144,31 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 # 指定缓存redis的别名
 SESSION_CACHE_ALIAS = "session"
+
+
+# 配置 elaticsearch
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': '127.0.0.1:8002'
+    }
+}
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://127.0.0.1:8002/',  # 此处为elasticsearch运行的服务器ip地址，端口号默认为9200
+        'INDEX_NAME': 'dj_pre_class',  # 指定elasticsearch建立的索引库的名称
+    },
+}
+
+# 设置每页显示的数据量
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
+# 当数据库改变时，会自动更新索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+# 站点域名信息
+SITE_DOMAIN_PORT = "http://192.168.254.136:8000/"
+
 
 
 # Password validation

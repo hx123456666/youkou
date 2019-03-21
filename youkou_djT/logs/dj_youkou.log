@@ -2423,3 +2423,443 @@ INFO 2019-03-07 23:21:48,399 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
 INFO 2019-03-07 23:21:48,439 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
 WARNING 2019-03-07 23:21:48,449 log 228 Not Found: /favicon.ico
 WARNING 2019-03-07 23:21:48,453 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-13 16:32:12,059 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-13 16:32:18,347 basehttp 124 "GET /media/python_gui.jpg HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,356 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,362 basehttp 124 "GET /static/js/news/banners.js HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,379 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,383 basehttp 124 "GET /static/js/news/index.js HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,390 basehttp 124 "GET /media/jichujiaochen.jpeg HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,600 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-13 16:32:18,615 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-13 16:32:18,648 basehttp 124 "GET /media/python_advanced.jpg HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,649 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 304 0
+INFO 2019-03-13 16:32:18,652 basehttp 124 "GET /media/python_function.jpg HTTP/1.1" 304 0
+WARNING 2019-03-13 16:32:19,102 log 228 Not Found: /favicon.ico
+WARNING 2019-03-13 16:32:19,105 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-16 12:23:22,634 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-16 12:23:22,690 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,693 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,697 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,700 basehttp 124 "GET /static/css/news/index.css HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,726 basehttp 124 "GET /static/js/news/banners.js HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,728 basehttp 124 "GET /static/js/news/index.js HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,734 basehttp 124 "GET /static/images/python_web.jpg HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,732 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,738 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 304 0
+INFO 2019-03-16 12:23:22,878 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-16 12:23:22,885 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+WARNING 2019-03-16 12:23:22,913 log 228 Not Found: /favicon.ico
+WARNING 2019-03-16 12:23:22,914 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-16 13:08:03,177 basehttp 124 "GET /news/?tag_id=0&page=2 HTTP/1.1" 200 3073
+INFO 2019-03-16 13:08:04,874 basehttp 124 "GET /search/ HTTP/1.1" 200 11216
+INFO 2019-03-16 13:08:04,897 basehttp 124 "GET /static/images/python_gui.jpg HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:04,899 basehttp 124 "GET /static/images/python_advanced.jpg HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:04,904 basehttp 124 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:04,906 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:04,909 basehttp 124 "GET /static/css/news/search.css HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:04,909 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:06,758 basehttp 124 "GET /doc/ HTTP/1.1" 200 7849
+INFO 2019-03-16 13:08:06,767 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:07,499 basehttp 124 "GET /course/ HTTP/1.1" 200 4437
+INFO 2019-03-16 13:08:07,511 basehttp 124 "GET /static/css/course/course.css HTTP/1.1" 304 0
+INFO 2019-03-16 13:08:08,084 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-16 13:08:08,162 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-16 13:08:08,166 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-16 13:08:08,661 basehttp 124 "GET /course/ HTTP/1.1" 200 4437
+INFO 2019-03-16 13:08:09,515 basehttp 124 "GET /search/ HTTP/1.1" 200 11216
+INFO 2019-03-16 13:08:10,720 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-16 13:08:10,809 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-16 13:08:10,816 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-16 14:36:18,684 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-16 14:36:18,874 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-16 14:36:18,912 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+WARNING 2019-03-16 14:36:21,113 base 93 Method Not Allowed (GET): /search/
+WARNING 2019-03-16 14:36:21,114 log 228 Method Not Allowed: /search/
+WARNING 2019-03-16 14:36:21,115 basehttp 124 "GET /search/ HTTP/1.1" 405 0
+WARNING 2019-03-16 14:36:22,535 base 93 Method Not Allowed (GET): /search/
+WARNING 2019-03-16 14:36:22,537 log 228 Method Not Allowed: /search/
+WARNING 2019-03-16 14:36:22,538 basehttp 124 "GET /search/ HTTP/1.1" 405 0
+WARNING 2019-03-16 19:10:53,117 base 93 Method Not Allowed (GET): /search/
+WARNING 2019-03-16 19:10:53,120 log 228 Method Not Allowed: /search/
+WARNING 2019-03-16 19:10:53,121 basehttp 124 "GET /search/ HTTP/1.1" 405 0
+INFO 2019-03-16 19:10:55,715 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-16 19:10:57,471 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-16 19:10:57,478 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-16 19:10:58,688 basehttp 124 "GET /course/ HTTP/1.1" 200 4437
+INFO 2019-03-16 19:11:00,120 basehttp 124 "GET /doc/ HTTP/1.1" 200 7849
+INFO 2019-03-16 19:11:04,405 basehttp 124 "GET /doc/ HTTP/1.1" 200 7849
+WARNING 2019-03-16 19:11:05,681 base 93 Method Not Allowed (GET): /search/
+WARNING 2019-03-16 19:11:05,684 log 228 Method Not Allowed: /search/
+WARNING 2019-03-16 19:11:05,686 basehttp 124 "GET /search/ HTTP/1.1" 405 0
+INFO 2019-03-18 17:21:07,774 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-18 17:21:07,807 basehttp 124 "GET /static/js/news/index.js HTTP/1.1" 304 0
+INFO 2019-03-18 17:21:07,821 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+INFO 2019-03-18 17:21:07,859 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+INFO 2019-03-18 17:21:07,980 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-18 17:21:08,029 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+WARNING 2019-03-18 17:21:08,062 log 228 Not Found: /favicon.ico
+WARNING 2019-03-18 17:21:08,064 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-18 18:46:02,155 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-18 18:46:02,300 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-18 18:46:02,301 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-18 18:46:03,398 basehttp 124 "GET /search/ HTTP/1.1" 200 11212
+INFO 2019-03-18 18:46:09,429 basehttp 124 "GET /search/?q=python HTTP/1.1" 200 11212
+                                                                                                                                                                      INFO 2019-03-19 13:30:21,062 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-19 13:30:21,123 basehttp 124 "GET /media/jichujiaochen.jpeg HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,125 basehttp 124 "GET /media/python_gui.jpg HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,245 basehttp 124 "GET /media/linux.jpg HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,293 basehttp 124 "GET /static/js/news/banners.js HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,406 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-19 13:30:21,437 basehttp 124 "GET /media/python_function.jpg HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,439 basehttp 124 "GET /media/python_web.jpg HTTP/1.1" 304 0
+INFO 2019-03-19 13:30:21,444 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-19 13:30:21,440 basehttp 124 "GET /media/python_advanced.jpg HTTP/1.1" 304 0
+WARNING 2019-03-19 13:30:21,499 log 228 Not Found: /favicon.ico
+WARNING 2019-03-19 13:30:21,502 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+ERROR 2019-03-19 13:30:24,012 log 228 Internal Server Error: /doc/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'youkou_djT.tb_docs' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/doc/views.py", line 29, in doc_index
+    return render(request, 'doc/docDownload.html', locals())
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'youkou_djT.tb_docs' doesn't exist")
+ERROR 2019-03-19 13:30:24,080 basehttp 124 "GET /doc/ HTTP/1.1" 500 285986
+INFO 2019-03-19 13:31:01,158 basehttp 124 "GET /doc/ HTTP/1.1" 200 5937
+WARNING 2019-03-19 13:31:01,190 log 228 Not Found: /media/doc_banner_2.jpg
+WARNING 2019-03-19 13:31:01,192 basehttp 124 "GET /media/doc_banner_2.jpg HTTP/1.1" 404 1809
+INFO 2019-03-20 23:16:10,932 basehttp 124 "GET /docs/ HTTP/1.1" 200 10082
+INFO 2019-03-20 23:16:11,132 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 304 0
+INFO 2019-03-20 23:16:11,641 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 304 0
+INFO 2019-03-20 23:16:11,654 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 304 0
+INFO 2019-03-20 23:16:11,669 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 304 0
+INFO 2019-03-20 23:16:11,680 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 304 0
+WARNING 2019-03-20 23:16:11,721 log 228 Not Found: /docs/media/fluent_python_1.jpg
+WARNING 2019-03-20 23:16:11,735 basehttp 124 "GET /docs/media/fluent_python_1.jpg HTTP/1.1" 404 4607
+WARNING 2019-03-20 23:16:11,738 log 228 Not Found: /docs/media/像计算机科学家一样思考Python.jpg
+WARNING 2019-03-20 23:16:11,740 basehttp 124 "GET /docs/media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 404 4745
+WARNING 2019-03-20 23:16:11,747 log 228 Not Found: /docs/media/hard_way_to_learn_python.jpg
+WARNING 2019-03-20 23:16:11,753 basehttp 124 "GET /docs/media/hard_way_to_learn_python.jpg HTTP/1.1" 404 4634
+WARNING 2019-03-20 23:16:11,773 log 228 Not Found: /docs/media/Python核心编程.jpg
+WARNING 2019-03-20 23:16:11,773 log 228 Not Found: /docs/media/Python_Cookbook_第三版.jpg
+WARNING 2019-03-20 23:16:11,786 basehttp 124 "GET /docs/media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 404 4655
+INFO 2019-03-20 23:16:11,791 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 304 0
+WARNING 2019-03-20 23:16:11,794 basehttp 124 "GET /docs/media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 404 4640
+WARNING 2019-03-20 23:16:11,810 log 228 Not Found: /docs/media/django项目班_英语单词.jpg
+WARNING 2019-03-20 23:16:11,812 basehttp 124 "GET /docs/media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 404 4688
+INFO 2019-03-20 23:16:11,819 basehttp 124 "GET /media/doc_banner_2.jpg HTTP/1.1" 304 0
+INFO 2019-03-20 23:16:11,833 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 304 0
+INFO 2019-03-20 23:19:45,927 basehttp 124 "GET /docs/ HTTP/1.1" 200 10082
+INFO 2019-03-20 23:19:45,971 basehttp 124 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-03-20 23:19:45,973 basehttp 124 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-03-20 23:19:45,982 basehttp 124 "GET /static/css/base/side.css HTTP/1.1" 200 4428
+INFO 2019-03-20 23:19:45,984 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 200 2122
+INFO 2019-03-20 23:19:46,010 basehttp 124 "GET /static/js/base/message.js HTTP/1.1" 200 3570
+WARNING 2019-03-20 23:19:46,015 log 228 Not Found: /docs/media/fluent_python_1.jpg
+WARNING 2019-03-20 23:19:46,027 basehttp 124 "GET /docs/media/fluent_python_1.jpg HTTP/1.1" 404 4607
+INFO 2019-03-20 23:19:46,025 basehttp 124 "GET /media/doc_banner_2.jpg HTTP/1.1" 200 45298
+WARNING 2019-03-20 23:19:46,038 log 228 Not Found: /docs/media/hard_way_to_learn_python.jpg
+WARNING 2019-03-20 23:19:46,047 basehttp 124 "GET /docs/media/hard_way_to_learn_python.jpg HTTP/1.1" 404 4634
+WARNING 2019-03-20 23:19:46,043 log 228 Not Found: /docs/media/Python_Cookbook_第三版.jpg
+WARNING 2019-03-20 23:19:46,055 basehttp 124 "GET /docs/media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 404 4655
+WARNING 2019-03-20 23:19:46,052 log 228 Not Found: /docs/media/像计算机科学家一样思考Python.jpg
+WARNING 2019-03-20 23:19:46,070 basehttp 124 "GET /docs/media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 404 4745
+WARNING 2019-03-20 23:19:46,062 log 228 Not Found: /docs/media/Python核心编程.jpg
+WARNING 2019-03-20 23:19:46,072 basehttp 124 "GET /docs/media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 404 4640
+WARNING 2019-03-20 23:19:46,069 log 228 Not Found: /docs/media/django项目班_英语单词.jpg
+WARNING 2019-03-20 23:19:46,073 basehttp 124 "GET /docs/media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 404 4688
+INFO 2019-03-20 23:19:46,084 basehttp 124 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+INFO 2019-03-20 23:19:46,497 basehttp 124 "GET /static/images/wechat.jpg HTTP/1.1" 200 24527
+WARNING 2019-03-20 23:19:47,582 log 228 Not Found: /favicon.ico
+WARNING 2019-03-20 23:19:47,584 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4297
+INFO 2019-03-20 23:20:32,598 basehttp 124 "GET /docs HTTP/1.1" 301 0
+INFO 2019-03-20 23:20:32,652 basehttp 124 "GET /docs/ HTTP/1.1" 200 10082
+WARNING 2019-03-20 23:20:32,678 log 228 Not Found: /docs/media/fluent_python_1.jpg
+WARNING 2019-03-20 23:20:32,693 basehttp 124 "GET /docs/media/fluent_python_1.jpg HTTP/1.1" 404 4607
+WARNING 2019-03-20 23:20:32,686 log 228 Not Found: /docs/media/像计算机科学家一样思考Python.jpg
+WARNING 2019-03-20 23:20:32,696 basehttp 124 "GET /docs/media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 404 4745
+WARNING 2019-03-20 23:20:32,692 log 228 Not Found: /docs/media/hard_way_to_learn_python.jpg
+WARNING 2019-03-20 23:20:32,702 basehttp 124 "GET /docs/media/hard_way_to_learn_python.jpg HTTP/1.1" 404 4634
+WARNING 2019-03-20 23:20:32,715 log 228 Not Found: /docs/media/Python_Cookbook_第三版.jpg
+WARNING 2019-03-20 23:20:32,730 basehttp 124 "GET /docs/media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 404 4655
+WARNING 2019-03-20 23:20:32,723 log 228 Not Found: /docs/media/django项目班_英语单词.jpg
+WARNING 2019-03-20 23:20:32,727 log 228 Not Found: /docs/media/Python核心编程.jpg
+WARNING 2019-03-20 23:20:32,734 basehttp 124 "GET /docs/media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 404 4688
+WARNING 2019-03-20 23:20:32,743 basehttp 124 "GET /docs/media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 404 4640
+ERROR 2019-03-20 23:22:08,796 log 228 Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'doc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/doc/views.py", line 29, in doc_index
+    return render(request, 'doc/docDownload.html', locals())
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'doc' is not a registered namespace
+ERROR 2019-03-20 23:22:08,834 basehttp 124 "GET /docs/ HTTP/1.1" 500 192983
+ERROR 2019-03-20 23:23:29,516 log 228 Internal Server Error: /doc/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/MyProject/youkou_djT/apps/doc/views.py", line 29, in doc_index
+    return render(request, 'doc/docDownload.html', locals())
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/djT/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'doc_download' with no arguments not found. 1 pattern(s) tried: ['doc\\/(?P<doc_id>[0-9]+)\\/$']
+ERROR 2019-03-20 23:23:29,543 basehttp 124 "GET /doc/ HTTP/1.1" 500 193331
+INFO 2019-03-20 23:24:01,917 basehttp 124 "GET /doc/ HTTP/1.1" 200 10081
+WARNING 2019-03-20 23:24:02,038 log 228 Not Found: /doc/media/fluent_python_1.jpg
+WARNING 2019-03-20 23:24:02,045 basehttp 124 "GET /doc/media/fluent_python_1.jpg HTTP/1.1" 404 4602
+WARNING 2019-03-20 23:24:02,049 log 228 Not Found: /doc/media/hard_way_to_learn_python.jpg
+WARNING 2019-03-20 23:24:02,063 log 228 Not Found: /doc/media/Python_Cookbook_第三版.jpg
+WARNING 2019-03-20 23:24:02,080 basehttp 124 "GET /doc/media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 404 4650
+WARNING 2019-03-20 23:24:02,068 log 228 Not Found: /doc/media/像计算机科学家一样思考Python.jpg
+WARNING 2019-03-20 23:24:02,096 basehttp 124 "GET /doc/media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 404 4740
+WARNING 2019-03-20 23:24:02,088 basehttp 124 "GET /doc/media/hard_way_to_learn_python.jpg HTTP/1.1" 404 4629
+WARNING 2019-03-20 23:24:02,088 log 228 Not Found: /doc/media/django项目班_英语单词.jpg
+WARNING 2019-03-20 23:24:02,108 basehttp 124 "GET /doc/media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 404 4683
+WARNING 2019-03-20 23:24:02,103 log 228 Not Found: /doc/media/Python核心编程.jpg
+WARNING 2019-03-20 23:24:02,113 basehttp 124 "GET /doc/media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 404 4635
+WARNING 2019-03-20 23:24:10,779 log 228 Not Found: /docs/
+WARNING 2019-03-20 23:24:10,780 basehttp 124 "GET /docs/ HTTP/1.1" 404 4278
+WARNING 2019-03-20 23:24:10,815 log 228 Not Found: /favicon.ico
+WARNING 2019-03-20 23:24:10,816 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-20 23:24:15,418 basehttp 124 "GET /doc/ HTTP/1.1" 200 10081
+WARNING 2019-03-20 23:24:15,446 log 228 Not Found: /doc/media/fluent_python_1.jpg
+WARNING 2019-03-20 23:24:15,458 basehttp 124 "GET /doc/media/fluent_python_1.jpg HTTP/1.1" 404 4602
+WARNING 2019-03-20 23:24:15,456 log 228 Not Found: /doc/media/hard_way_to_learn_python.jpg
+WARNING 2019-03-20 23:24:15,472 basehttp 124 "GET /doc/media/hard_way_to_learn_python.jpg HTTP/1.1" 404 4629
+WARNING 2019-03-20 23:24:15,468 log 228 Not Found: /doc/media/Python_Cookbook_第三版.jpg
+WARNING 2019-03-20 23:24:15,477 basehttp 124 "GET /doc/media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 404 4650
+WARNING 2019-03-20 23:24:15,493 log 228 Not Found: /doc/media/像计算机科学家一样思考Python.jpg
+WARNING 2019-03-20 23:24:15,506 basehttp 124 "GET /doc/media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 404 4740
+WARNING 2019-03-20 23:24:15,514 log 228 Not Found: /doc/media/django项目班_英语单词.jpg
+WARNING 2019-03-20 23:24:15,504 log 228 Not Found: /doc/media/Python核心编程.jpg
+WARNING 2019-03-20 23:24:15,516 basehttp 124 "GET /doc/media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 404 4635
+WARNING 2019-03-20 23:24:15,519 basehttp 124 "GET /doc/media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 404 4683
+INFO 2019-03-20 23:28:59,612 basehttp 124 "GET /doc/ HTTP/1.1" 200 10087
+INFO 2019-03-20 23:28:59,654 basehttp 124 "GET /media/fluent_python_1.jpg HTTP/1.1" 200 18248
+INFO 2019-03-20 23:28:59,678 basehttp 124 "GET /media/%E5%83%8F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83Python.jpg HTTP/1.1" 200 44525
+INFO 2019-03-20 23:28:59,690 basehttp 124 "GET /media/Python_Cookbook_%E7%AC%AC%E4%B8%89%E7%89%88.jpg HTTP/1.1" 200 18404
+INFO 2019-03-20 23:28:59,702 basehttp 124 "GET /media/hard_way_to_learn_python.jpg HTTP/1.1" 200 114185
+INFO 2019-03-20 23:28:59,715 basehttp 124 "GET /media/Python%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.jpg HTTP/1.1" 200 21302
+INFO 2019-03-20 23:28:59,744 basehttp 124 "GET /media/django%E9%A1%B9%E7%9B%AE%E7%8F%AD_%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D.jpg HTTP/1.1" 200 158750
+INFO 2019-03-20 23:34:19,192 basehttp 124 "GET /doc/ HTTP/1.1" 200 10147
+INFO 2019-03-20 23:34:23,072 basehttp 124 "GET /media/%E6%B5%81%E7%95%85%E7%9A%84Python.pdf HTTP/1.1" 200 11879309
+INFO 2019-03-20 23:34:23,805 basehttp 124 "GET /doc/doc/1/ HTTP/1.1" 200 11879309
+INFO 2019-03-20 23:34:54,155 basehttp 124 "GET /media/%E6%B5%81%E7%95%85%E7%9A%84Python.pdf HTTP/1.1" 200 11879309
+INFO 2019-03-20 23:34:54,999 basehttp 124 "GET /doc/doc/1/ HTTP/1.1" 200 11879309
+INFO 2019-03-21 11:06:28,822 basehttp 124 "GET / HTTP/1.1" 200 9887
+INFO 2019-03-21 11:06:30,155 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-21 11:06:30,183 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+WARNING 2019-03-21 11:06:30,217 log 228 Not Found: /favicon.ico
+WARNING 2019-03-21 11:06:30,218 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4296
+INFO 2019-03-21 11:06:45,597 basehttp 124 "GET /doc/ HTTP/1.1" 200 10147
+INFO 2019-03-21 11:06:45,625 basehttp 124 "GET /static/css/doc/docDownload.css HTTP/1.1" 304 0
+INFO 2019-03-21 11:06:52,794 basehttp 124 "GET / HTTP/1.1" 200 9933
+INFO 2019-03-21 11:06:53,825 basehttp 124 "GET /news/banners/ HTTP/1.1" 200 863
+INFO 2019-03-21 11:06:53,838 basehttp 124 "GET /news/?tag_id=0&page=1 HTTP/1.1" 200 3218
+INFO 2019-03-21 11:07:01,044 basehttp 124 "GET /search/ HTTP/1.1" 200 16410
+INFO 2019-03-21 11:07:08,060 basehttp 124 "GET /search/ HTTP/1.1" 200 16410
+INFO 2019-03-21 11:07:30,310 basehttp 124 "GET /search/?q=python HTTP/1.1" 200 17782
+INFO 2019-03-21 11:07:47,914 basehttp 124 "GET /search/?q=django HTTP/1.1" 200 15622
+INFO 2019-03-21 11:07:54,739 basehttp 124 "GET /doc/ HTTP/1.1" 200 10193
